@@ -1,0 +1,1272 @@
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Initialize engine version: 6000.3.2f1 (a9779f353c9b)
+[Subsystems] Discovering subsystems at path C:/Program Files (x86)/Steam/steamapps/common/Gallipoli/Gallipoli/Gallipoli_Data/UnitySubsystems
+[D3D12 Device Filter] Vendor Name: NVIDIA
+[D3D12 Device Filter] Device Name: NVIDIA GeForce RTX 4070
+[D3D12 Device Filter] Driver Version: 32.0.16.1088
+[D3D12 Device Filter] Feature Level: 12.2
+[D3D12 Device Filter] Graphics Memory: 12010 MB
+[D3D12 Device Filter] Processor Count: 28
+[D3D12 Device Filter] Device Type: Discrete
+GfxDevice: creating device client; kGfxThreadingModeClientWorkerJobs
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4070 (ID=0x2786)
+    Vendor:   NVIDIA
+    VRAM:     12010 MB
+    Driver:   32.0.16.1088
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+<RI> Initializing input.
+<RI> Input initialized.
+UnloadTime: 2.129700 ms
+Commandline options: "C:\Program Files (x86)\Steam\steamapps\common\Gallipoli\Gallipoli\Gallipoli.exe" gallipoli
+Realtime:   1.389    NetworkTime:          0    Category: 
+Unity.Collections.Enumerator:MoveNext() (at ./Library/PackageCache/com.unity.collections@010f14fa5e2c/Unity.Collections/NativeParallelMultiHashMap.cs:492)
+UnityEngine.Logger:Log(LogType, Object, Object)
+UnityEngine.Debug:Log(Object, Object)
+DebugWrapper:LogAdvanced(String, LogLevel, LogCategory, Object)
+Bootstrap:Awake() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/MainMenu/Bootstrap.cs:34)
+
+Initialising Steamworks with appID Gallipoli
+Unity.Collections.Enumerator:MoveNext() (at ./Library/PackageCache/com.unity.collections@010f14fa5e2c/Unity.Collections/NativeParallelMultiHashMap.cs:492)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WW1.Services.Steam.SteamServices:PreInit() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Services/Steam/SteamServices.cs:160)
+WW1.Services.<Start>d__46:MoveNext() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Services/PlatformServices.cs:239)
+Photon.Pun.PhotonNetwork:get_OfflineMode() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Plugins/packages/PhotonUnityNetworking/Code/PhotonNetwork.cs:443)
+WW1.Services.PlatformServices:InitializeServices() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Services/PlatformServices.cs:131)
+WW1.Services.PlatformServices:Initialize() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Services/PlatformServices.cs:122)
+<Start>d__6:MoveNext() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/MainMenu/Bootstrap.cs:89)
+Photon.Pun.PhotonNetwork:get_OfflineMode() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Plugins/packages/PhotonUnityNetworking/Code/PhotonNetwork.cs:443)
+
+Steamworks initialized and ready to use.
+Unity.Collections.Enumerator:MoveNext() (at ./Library/PackageCache/com.unity.collections@010f14fa5e2c/Unity.Collections/NativeParallelMultiHashMap.cs:492)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WW1.Services.Steam.SteamServices:PreInit() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Services/Steam/SteamServices.cs:181)
+WW1.Services.<Start>d__46:MoveNext() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Services/PlatformServices.cs:239)
+Photon.Pun.PhotonNetwork:get_OfflineMode() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Plugins/packages/PhotonUnityNetworking/Code/PhotonNetwork.cs:443)
+WW1.Services.PlatformServices:InitializeServices() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Services/PlatformServices.cs:131)
+WW1.Services.PlatformServices:Initialize() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Services/PlatformServices.cs:122)
+<Start>d__6:MoveNext() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/MainMenu/Bootstrap.cs:89)
+Photon.Pun.PhotonNetwork:get_OfflineMode() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Plugins/packages/PhotonUnityNetworking/Code/PhotonNetwork.cs:443)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 20)
+UnloadTime: 0.588500 ms
+Unloading 67 unused Assets to reduce memory usage. Loaded Objects now: 14202.
+Total: 11.814900 ms (FindLiveObjects: 0.455000 ms CreateObjectMapping: 0.234000 ms MarkObjects: 11.037800 ms  DeleteObjects: 0.085800 ms)
+
+PlayFab: Not logging into PlayFab because we're not properly connected to Photon
+Unity.Collections.Enumerator:MoveNext() (at ./Library/PackageCache/com.unity.collections@010f14fa5e2c/Unity.Collections/NativeParallelMultiHashMap.cs:492)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+
+PlayFab: Not logging into PlayFab because we're not properly connected to Photon
+Unity.Collections.Enumerator:MoveNext() (at ./Library/PackageCache/com.unity.collections@010f14fa5e2c/Unity.Collections/NativeParallelMultiHashMap.cs:492)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WW1.Analytics.PlayFabAnalyticsEventParser:TryProcessUploadBuffer() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Analytics/PlayFabAnalyticsEventParser.cs:372)
+WW1.DataStorage.SaveData:get_PerMachine() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/DataStorage/SaveData.cs:9)
+OnlineSettings:CallSettingsUpdatedEvent() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/M2HGDT/OnlineSettings/OnlineSettings.cs:281)
+OnlineSettings:LoadNewOnlineSettings(Dictionary`2, Boolean) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/M2HGDT/OnlineSettings/OnlineSettings.cs:159)
+OnlineSettings:LoadNewOnlineSettings(String, Boolean) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/M2HGDT/OnlineSettings/OnlineSettings.cs:115)
+M2HGDT:LoadSettingsFromString(String, Boolean) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/M2HGDT/M2HGDT.cs:1087)
+CodeStage.AntiCheat.Detectors.ACTkDetectorBase`1:set_IsRunning(Boolean) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Plugins/packages/AntiCheatToolkit/Runtime/Scripts/Detectors/Abstract/ACTkDetectorBase.cs:70)
+Photon.Pun.PhotonNetwork:get_OfflineMode() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Plugins/packages/PhotonUnityNetworking/Code/PhotonNetwork.cs:443)
+
+Loaded account data. XP: 91
+Unity.Collections.Enumerator:MoveNext() (at ./Library/PackageCache/com.unity.collections@010f14fa5e2c/Unity.Collections/NativeParallelMultiHashMap.cs:492)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Account:LoadAccountData() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/managers/Statics/Account.cs:126)
+WW1.Services.<Start>d__46:MoveNext() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Services/PlatformServices.cs:294)
+Photon.Pun.PhotonNetwork:get_OfflineMode() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Plugins/packages/PhotonUnityNetworking/Code/PhotonNetwork.cs:443)
+
+PreWarming Shaders: Auto_Shader
+Unity.Collections.Enumerator:MoveNext() (at ./Library/PackageCache/com.unity.collections@010f14fa5e2c/Unity.Collections/NativeParallelMultiHashMap.cs:492)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<PreWarmAlwaysIncludedShaders>d__27:MoveNext() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/managers/AssetManager/ResourceManager.cs:335)
+UnityEngine.StateMachineBox`1:DoMoveNext()
+WW1.DataStorage.SaveData:get_PerUser() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/DataStorage/SaveData.cs:8)
+UnityEngine.UnitySynchronizationContext:Exec()
+
+[Photon] [170] Reset inactivity timer when it was at -1.9s [keyword: inactivityDisconnect_a]
+Unity.Collections.Enumerator:MoveNext() (at ./Library/PackageCache/com.unity.collections@010f14fa5e2c/Unity.Collections/NativeParallelMultiHashMap.cs:492)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WW1.Networking.WW1PhotonConnection:ResetInactiveTimeout() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/MainMenu/Connection/WW1PhotonConnection.cs:1396)
+WW1.Networking.<Start>d__9:MoveNext() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/MainMenu/Connection/WW1PhotonConnection.cs:39)
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+Pool`1:GetUsed() (at F:/WW1Series_Laurens_Staging_Steam/Assets/GUI Eastern Front/Scripts/Misc/Pool.cs:115)
+IntListData:get_ListInts() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Misc/IntListData.cs:10)
+WW1.<WaitUntilAsync>d__10:MoveNext() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Tools/AwaitableUtils.cs:160)
+UnityEngine.StateMachineBox`1:DoMoveNext()
+Pool`1:GetUsed() (at F:/WW1Series_Laurens_Staging_Steam/Assets/GUI Eastern Front/Scripts/Misc/Pool.cs:115)
+Unity.Collections.LowLevel.Unsafe.Enumerator:System.Collections.IEnumerator.get_Current() (at ./Library/PackageCache/com.unity.collections@010f14fa5e2c/Unity.Collections/UnsafeList.cs:1051)
+
+[Network] Connecting to Photon.
+Unity.Collections.Enumerator:MoveNext() (at ./Library/PackageCache/com.unity.collections@010f14fa5e2c/Unity.Collections/NativeParallelMultiHashMap.cs:492)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WW1.Networking.<ConnectToPhotonAsync>d__15:MoveNext() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/MainMenu/Connection/WW1PhotonConnection.cs:190)
+UnityEngine.StateMachineBox`1:DoMoveNext()
+WW1.Networking.WW1PhotonConnection:OnRoomListUpdate(List`1) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/MainMenu/Connection/WW1PhotonConnection.cs:178)
+WW1.Networking.<Start>d__9:MoveNext() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/MainMenu/Connection/WW1PhotonConnection.cs:41)
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+Pool`1:GetUsed() (at F:/WW1Series_Laurens_Staging_Steam/Assets/GUI Eastern Front/Scripts/Misc/Pool.cs:115)
+IntListData:get_ListInts() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Misc/IntListData.cs:10)
+WW1.<WaitUntilAsync>d__10:MoveNext() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Tools/AwaitableUtils.cs:160)
+UnityEngine.StateMachineBox`1:DoMoveNext()
+Pool`1:GetUsed() (at F:/WW1Series_Laurens_Staging_Steam/Assets/GUI Eastern Front/Scripts/Misc/Pool.cs:115)
+Unity.Collections.LowLevel.Unsafe.Enumerator:System.Collections.IEnumerator.get_Current() (at ./Library/PackageCache/com.unity.collections@010f14fa5e2c/Unity.Collections/UnsafeList.cs:1051)
+
+Attempting to connect to region: , Use name server? Yes
+Unity.Collections.Enumerator:MoveNext() (at ./Library/PackageCache/com.unity.collections@010f14fa5e2c/Unity.Collections/NativeParallelMultiHashMap.cs:492)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<ConnectToPhotonAsync_Internal>d__21:MoveNext() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Networking/GDTRegions.cs:225)
+UnityEngine.StateMachineBox`1:DoMoveNext()
+GDTRegions:OverrideRegion(String) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Networking/GDTRegions.cs:165)
+<ConnectToPhotonAsync>d__20:MoveNext() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Networking/GDTRegions.cs:170)
+UnityEngine.StateMachineBox`1:DoMoveNext()
+GDTRegions:OverrideRegion(String) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Networking/GDTRegions.cs:165)
+WW1.Networking.<ConnectToPhotonAsync>d__15:MoveNext() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/MainMenu/Connection/WW1PhotonConnection.cs:300)
+UnityEngine.StateMachineBox`1:DoMoveNext()
+WW1.Networking.WW1PhotonConnection:OnRoomListUpdate(List`1) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/MainMenu/Connection/WW1PhotonConnection.cs:178)
+WW1.Networking.<Start>d__9:MoveNext() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/MainMenu/Connection/WW1PhotonConnection.cs:41)
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+Pool`1:GetUsed() (at F:/WW1Series_Laurens_Staging_Steam/Assets/GUI Eastern Front/Scripts/Misc/Pool.cs:115)
+IntListData:get_ListInts() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Misc/IntListData.cs:10)
+WW1.<WaitUntilAsync>d__10:MoveNext() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Tools/AwaitableUtils.cs:160)
+UnityEngine.StateMachineBox`1:DoMoveNext()
+Pool`1:GetUsed() (at F:/WW1Series_Laurens_Staging_Steam/Assets/GUI Eastern Front/Scripts/Misc/Pool.cs:115)
+Unity.Collections.LowLevel.Unsafe.Enumerator:System.Collections.IEnumerator.get_Current() (at ./Library/PackageCache/com.unity.collections@010f14fa5e2c/Unity.Collections/UnsafeList.cs:1051)
+
+PreWarming Shaders: UI
+Unity.Collections.Enumerator:MoveNext() (at ./Library/PackageCache/com.unity.collections@010f14fa5e2c/Unity.Collections/NativeParallelMultiHashMap.cs:492)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<PreWarmAlwaysIncludedShaders>d__27:MoveNext() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/managers/AssetManager/ResourceManager.cs:335)
+UnityEngine.StateMachineBox`1:DoMoveNext()
+WW1.DataStorage.SaveData:get_PerUser() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/DataStorage/SaveData.cs:8)
+UnityEngine.UnitySynchronizationContext:Exec()
+
+PreWarming Shaders: UI_3DScenes_Shared
+Unity.Collections.Enumerator:MoveNext() (at ./Library/PackageCache/com.unity.collections@010f14fa5e2c/Unity.Collections/NativeParallelMultiHashMap.cs:492)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<PreWarmAlwaysIncludedShaders>d__27:MoveNext() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/managers/AssetManager/ResourceManager.cs:335)
+UnityEngine.StateMachineBox`1:DoMoveNext()
+WW1.DataStorage.SaveData:get_PerUser() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/DataStorage/SaveData.cs:8)
+UnityEngine.UnitySynchronizationContext:Exec()
+
+PreWarming Shaders: Characters
+Unity.Collections.Enumerator:MoveNext() (at ./Library/PackageCache/com.unity.collections@010f14fa5e2c/Unity.Collections/NativeParallelMultiHashMap.cs:492)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<PreWarmAlwaysIncludedShaders>d__27:MoveNext() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/managers/AssetManager/ResourceManager.cs:335)
+UnityEngine.StateMachineBox`1:DoMoveNext()
+WW1.DataStorage.SaveData:get_PerUser() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/DataStorage/SaveData.cs:8)
+UnityEngine.UnitySynchronizationContext:Exec()
+
+PreWarming Shaders: VFX
+Unity.Collections.Enumerator:MoveNext() (at ./Library/PackageCache/com.unity.collections@010f14fa5e2c/Unity.Collections/NativeParallelMultiHashMap.cs:492)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<PreWarmAlwaysIncludedShaders>d__27:MoveNext() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/managers/AssetManager/ResourceManager.cs:335)
+UnityEngine.StateMachineBox`1:DoMoveNext()
+WW1.DataStorage.SaveData:get_PerUser() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/DataStorage/SaveData.cs:8)
+UnityEngine.UnitySynchronizationContext:Exec()
+
+PreWarming Shaders Done
+Unity.Collections.Enumerator:MoveNext() (at ./Library/PackageCache/com.unity.collections@010f14fa5e2c/Unity.Collections/NativeParallelMultiHashMap.cs:492)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<PreWarmAlwaysIncludedShaders>d__27:MoveNext() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/managers/AssetManager/ResourceManager.cs:340)
+UnityEngine.StateMachineBox`1:DoMoveNext()
+Pool`1:GetUsed() (at F:/WW1Series_Laurens_Staging_Steam/Assets/GUI Eastern Front/Scripts/Misc/Pool.cs:115)
+Unity.Collections.LowLevel.Unsafe.Enumerator:System.Collections.IEnumerator.get_Current() (at ./Library/PackageCache/com.unity.collections@010f14fa5e2c/Unity.Collections/UnsafeList.cs:1051)
+
+[Network] Successfully connected to Photon.
+Unity.Collections.Enumerator:MoveNext() (at ./Library/PackageCache/com.unity.collections@010f14fa5e2c/Unity.Collections/NativeParallelMultiHashMap.cs:492)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WW1.Networking.<ConnectToPhotonAsync>d__15:MoveNext() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/MainMenu/Connection/WW1PhotonConnection.cs:332)
+UnityEngine.StateMachineBox`1:DoMoveNext()
+Pool`1:GetUsed() (at F:/WW1Series_Laurens_Staging_Steam/Assets/GUI Eastern Front/Scripts/Misc/Pool.cs:115)
+WW1.<WaitUntilWithTimeoutExceptionAsync>d__13:MoveNext() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Tools/AwaitableUtils.cs:219)
+UnityEngine.StateMachineBox`1:DoMoveNext()
+Pool`1:GetUsed() (at F:/WW1Series_Laurens_Staging_Steam/Assets/GUI Eastern Front/Scripts/Misc/Pool.cs:115)
+Unity.Collections.LowLevel.Unsafe.Enumerator:System.Collections.IEnumerator.get_Current() (at ./Library/PackageCache/com.unity.collections@010f14fa5e2c/Unity.Collections/UnsafeList.cs:1051)
+
+[Photon] [193] Reset inactivity timer when it was at 1799.6s [keyword: inactivityDisconnect_a]
+Unity.Collections.Enumerator:MoveNext() (at ./Library/PackageCache/com.unity.collections@010f14fa5e2c/Unity.Collections/NativeParallelMultiHashMap.cs:492)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WW1.Networking.WW1PhotonConnection:ResetInactiveTimeout() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/MainMenu/Connection/WW1PhotonConnection.cs:1396)
+WW1.Networking.<ConnectToPhotonAsync>d__15:MoveNext() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/MainMenu/Connection/WW1PhotonConnection.cs:335)
+UnityEngine.StateMachineBox`1:DoMoveNext()
+Pool`1:GetUsed() (at F:/WW1Series_Laurens_Staging_Steam/Assets/GUI Eastern Front/Scripts/Misc/Pool.cs:115)
+WW1.<WaitUntilWithTimeoutExceptionAsync>d__13:MoveNext() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Tools/AwaitableUtils.cs:219)
+UnityEngine.StateMachineBox`1:DoMoveNext()
+Pool`1:GetUsed() (at F:/WW1Series_Laurens_Staging_Steam/Assets/GUI Eastern Front/Scripts/Misc/Pool.cs:115)
+Unity.Collections.LowLevel.Unsafe.Enumerator:System.Collections.IEnumerator.get_Current() (at ./Library/PackageCache/com.unity.collections@010f14fa5e2c/Unity.Collections/UnsafeList.cs:1051)
+
+PlayFab: Attempt to Log in player
+Unity.Collections.Enumerator:MoveNext() (at ./Library/PackageCache/com.unity.collections@010f14fa5e2c/Unity.Collections/NativeParallelMultiHashMap.cs:492)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WW1.PlayFabManager:TryUserLogin() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Packages/PlayFab/PlayFabManager.cs:125)
+WW1.Events.EventInvoker:Invoke(T) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Misc/EventSystem/EventInvoker.cs:126)
+WW1.Events.EventSystem:Invoke(T) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Misc/EventSystem/EventSystem.cs:22)
+UnityEngine.StateMachineBox`1:DoMoveNext()
+Pool`1:GetUsed() (at F:/WW1Series_Laurens_Staging_Steam/Assets/GUI Eastern Front/Scripts/Misc/Pool.cs:115)
+WW1.<WaitUntilWithTimeoutExceptionAsync>d__13:MoveNext() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Tools/AwaitableUtils.cs:219)
+UnityEngine.StateMachineBox`1:DoMoveNext()
+Pool`1:GetUsed() (at F:/WW1Series_Laurens_Staging_Steam/Assets/GUI Eastern Front/Scripts/Misc/Pool.cs:115)
+Unity.Collections.LowLevel.Unsafe.Enumerator:System.Collections.IEnumerator.get_Current() (at ./Library/PackageCache/com.unity.collections@010f14fa5e2c/Unity.Collections/UnsafeList.cs:1051)
+
+PlayFab: Logging in with customID: [steam]76561197993695007
+Unity.Collections.Enumerator:MoveNext() (at ./Library/PackageCache/com.unity.collections@010f14fa5e2c/Unity.Collections/NativeParallelMultiHashMap.cs:492)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WW1.<LogInPlayer>d__39:MoveNext() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Packages/PlayFab/PlayFabManager.cs:173)
+UnityEngine.StateMachineBox`1:DoMoveNext()
+WW1.PlayFabManager:LogOut() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Packages/PlayFab/PlayFabManager.cs:139)
+WW1.PlayFabManager:TryUserLogin() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Packages/PlayFab/PlayFabManager.cs:126)
+WW1.Events.EventInvoker:Invoke(T) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Misc/EventSystem/EventInvoker.cs:126)
+WW1.Events.EventSystem:Invoke(T) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Misc/EventSystem/EventSystem.cs:22)
+UnityEngine.StateMachineBox`1:DoMoveNext()
+Pool`1:GetUsed() (at F:/WW1Series_Laurens_Staging_Steam/Assets/GUI Eastern Front/Scripts/Misc/Pool.cs:115)
+WW1.<WaitUntilWithTimeoutExceptionAsync>d__13:MoveNext() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Tools/AwaitableUtils.cs:219)
+UnityEngine.StateMachineBox`1:DoMoveNext()
+Pool`1:GetUsed() (at F:/WW1Series_Laurens_Staging_Steam/Assets/GUI Eastern Front/Scripts/Misc/Pool.cs:115)
+Unity.Collections.LowLevel.Unsafe.Enumerator:System.Collections.IEnumerator.get_Current() (at ./Library/PackageCache/com.unity.collections@010f14fa5e2c/Unity.Collections/UnsafeList.cs:1051)
+
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+PlayFab: GDT User Login Success: C63FE11B4074F400
+Unity.Collections.Enumerator:MoveNext() (at ./Library/PackageCache/com.unity.collections@010f14fa5e2c/Unity.Collections/NativeParallelMultiHashMap.cs:492)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WW1.PlayFabManager:LoginSuccess(LoginResult) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Packages/PlayFab/PlayFabManager.cs:189)
+CodeStage.AntiCheat.Detectors.ACTkDetectorBase`1:set_IsRunning(Boolean) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Plugins/packages/AntiCheatToolkit/Runtime/Scripts/Detectors/Abstract/ACTkDetectorBase.cs:70)
+CodeStage.AntiCheat.Storage.ObscuredFile:get_CurrentSettings() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Plugins/packages/AntiCheatToolkit/Runtime/Scripts/Storage/File/ObscuredFile.cs:109)
+PlayFab.Internal.<>c__DisplayClass31_0:<ProcessJsonResponse>b__1() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Plugins/Verdun/PlayFabSDK/Shared/Internal/PlayFabHttp/PlayFabWebRequest.cs:451)
+CodeStage.AntiCheat.Storage.ObscuredFile:get_CurrentSettings() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Plugins/packages/AntiCheatToolkit/Runtime/Scripts/Storage/File/ObscuredFile.cs:109)
+PlayFab.Internal.PlayFabWebRequest:Update() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Plugins/Verdun/PlayFabSDK/Shared/Internal/PlayFabHttp/PlayFabWebRequest.cs:484)
+PlayFab.Internal.PlayFabHttp:Update() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Plugins/Verdun/PlayFabSDK/Shared/Internal/PlayFabHttp/PlayFabHTTP.cs:370)
+
+CrashDump upload result: GDTResult success=True data=Output dictionary with 5 keys:success: 1, dumpfile: 1, log: 1, GDT_AUTHKEY: hw7WxVLnuozabTlYm6SCCjy66wUlo7ZJROhmgSbUJ4LWeXOJ4VZ4F55HqbZcIO75, GDT_ID: 5211856202366976, 
+Unity.Collections.Enumerator:MoveNext() (at ./Library/PackageCache/com.unity.collections@010f14fa5e2c/Unity.Collections/NativeParallelMultiHashMap.cs:492)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+CodeStage.AntiCheat.Detectors.ACTkDetectorBase`1:set_IsRunning(Boolean) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Plugins/packages/AntiCheatToolkit/Runtime/Scripts/Detectors/Abstract/ACTkDetectorBase.cs:70)
+Photon.Pun.PhotonNetwork:get_OfflineMode() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Plugins/packages/PhotonUnityNetworking/Code/PhotonNetwork.cs:443)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 23)
+UnloadTime: 0.446800 ms
+###########################################
+Game:
+Network Version: 15632
+Build Version: 76570
+Gameplay Version: 1
+Build Machine: WW1BUILDPC
+Platform: Steam
+Platform Service ID: [steam]76561197993695007
+Branch: 
+Language: EN
+Date: 8/20/2026 12:58:03 PM
+Account Username: <noparse>Dracon</noparse>
+Network Region Ping List: us;60;au,eu,kr,sa,us
+Network Preferred Region: None, will use best region!
+===================
+System:
+DeviceName: DRACON
+DeviceModel: Z790 Pro RS (ASRock)
+DeviceType: Desktop
+DeviceUniqueID: 7217d112c61f352b29c3630c211c4142
+CPU: Intel(R) Core(TM) i7-14700K (28 threads)
+RAM: 32529 MB
+GPU: NVIDIA GeForce RTX 4070 (12010 MB)
+OS: Windows 10  (10.0.19045) 64bit
+===================
+Supported:
+graphicsShaderLevel: 50
+supportsComputeShaders: True
+supportsRenderTargetArrayIndexFromVertexShader: True
+supports3DTextures: True
+supports2DArrayTextures: True
+supportsInstancing: True
+supportsAsyncCompute: False
+supportsConservativeRaster: True
+supportedRandomWriteTargetCount: 8
+supportsCubemapArrayTextures: True
+===================
+Displays:
+[Main]UnityEngine.Display 1920x1080 | Active: True
+UnityEngine.Display 1920x1080 | Active: False
+Resolution: 1920x1080
+FullScreen Mode: FullScreenWindow
+===================
+Input devices:
+Keyboard Keyboard Keyboard
+Mouse Mouse Mouse
+===================
+Sound:
+0) Speakers (Razer USB Sound Card) | 131f7dee-9f83-3645-7191-97204ed1474b | STEREO
+1) CABLE Input (VB-Audio Virtual Cable) | bbb01fbf-a946-6fe4-636a-eefd104da9e2 | STEREO
+2) Speakers (Realtek(R) Audio) | e8531ec2-0833-df66-9403-029704bfeee5 | STEREO
+3) Speakers (THX Spatial) | e8624723-5b36-9b1a-c813-85fd7f7917ad | STEREO
+4) Headphones (Oculus Virtual Audio Device) | ac3993fa-8a96-882d-7978-7996f34e30e8 | STEREO
+5) Acer XF270H B (NVIDIA High Definition Audio) | 9b57897f-0cab-2ab8-9f56-1c156c7466c3 | STEREO
+6) LG ULTRAGEAR (NVIDIA High Definition Audio) | e4ef8849-5002-6c7f-e6c3-702fffad7f4a | STEREO
+7) CABLE In 16ch (VB-Audio Virtual Cable) | 70bbb35f-a593-50dd-d9fa-b3c598ddc24a | STEREO
+===================
+Quality Settings:
+setting_horizontal_fov = 100   (min: 60.0 max: 120.0)
+setting_brightness = 0   (min: -0.5 max: 0.5)
+setting_screensize = 1   (min: 0.8 max: 1.0)
+setting_gfx_upscaler = FSR3
+setting_gfx_fsrquality = UltraQuality
+setting_gfx_fsrsharpness = 0.5   (min: 0.0 max: 1.0)
+setting_gfx_vsync = False
+setting_gfx_maxframeratelimit = 0 = SETTING_TARGETFPS_UNLIMITED  (SETTING_TARGETFPS_UNLIMITED, 30, 60, 90, 120, 144)
+setting_gfx_unlockfps = False
+setting_quality = Low
+setting_gfx_texturequality = Low
+setting_gfx_loddistance = Low
+setting_gfx_animationquality = Low
+setting_gfx_shadows_quality = Low
+setting_gfx_shadows_resolution = Low
+settings_gfx_terrainquality = Low
+settings_gfx_tessellationquality = Off
+settings_gfx_particlequality = Low
+settings_gfx_gore = Low
+settings_gfx_corpses = Low
+settings_gfx_gore_toggle = True
+settings_gfx_posteffectquality = Low
+setting_fx_motionblur = False
+setting_old_time_mode = False
+===================
+Streaming Mipmaps Active: False
+Streaming Mipmaps Max Level Reduction: 2
+===================
+Unity.Collections.Enumerator:MoveNext() (at ./Library/PackageCache/com.unity.collections@010f14fa5e2c/Unity.Collections/NativeParallelMultiHashMap.cs:492)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<PrintDevicesAndDriversListAsync>d__18:MoveNext() (at F:/WW1Series_Laurens_Staging_Steam/Assets/GUI Eastern Front/Scripts/UI/Core/MainMenu/GUI_MainMenu_CtrlBase.cs:220)
+UnityEngine.StateMachineBox`1:DoMoveNext()
+GUI_MainMenu_CtrlBase:Awake() (at F:/WW1Series_Laurens_Staging_Steam/Assets/GUI Eastern Front/Scripts/UI/Core/MainMenu/GUI_MainMenu_CtrlBase.cs:57)
+GUI_MainMenu_CtrlBase:Awake() (at F:/WW1Series_Laurens_Staging_Steam/Assets/GUI Eastern Front/Scripts/UI/Core/MainMenu/GUI_MainMenu_CtrlBase.cs:54)
+WW1.UI.GUI_MainMenu_Ctrl:Awake() (at F:/WW1Series_Laurens_Staging_Steam/Assets/GUI Eastern Front/Scripts/UI/Core/MainMenu/Ctrl/GUI_MainMenu_Ctrl.cs:32)
+
+GUI_MainMenu_Ctrl.OnConnectedToPhotonServer
+Unity.Collections.Enumerator:MoveNext() (at ./Library/PackageCache/com.unity.collections@010f14fa5e2c/Unity.Collections/NativeParallelMultiHashMap.cs:492)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WW1.UI.<OnConnectedToPhotonServer>d__10:MoveNext() (at F:/WW1Series_Laurens_Staging_Steam/Assets/GUI Eastern Front/Scripts/UI/Core/MainMenu/Ctrl/GUI_MainMenu_Ctrl.cs:138)
+System.Runtime.CompilerServices.AsyncVoidMethodBuilder:Start(TStateMachine&)
+WW1.UI.GUI_MainMenu_Ctrl:Update() (at F:/WW1Series_Laurens_Staging_Steam/Assets/GUI Eastern Front/Scripts/UI/Core/MainMenu/Ctrl/GUI_MainMenu_Ctrl.cs:133)
+
+[Network] Not yet connected to the master server, awaiting until we are. Current status: ConnectingToMasterServer
+Unity.Collections.Enumerator:MoveNext() (at ./Library/PackageCache/com.unity.collections@010f14fa5e2c/Unity.Collections/NativeParallelMultiHashMap.cs:492)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WW1.UI.<OnConnectedToPhotonServer>d__10:MoveNext() (at F:/WW1Series_Laurens_Staging_Steam/Assets/GUI Eastern Front/Scripts/UI/Core/MainMenu/Ctrl/GUI_MainMenu_Ctrl.cs:144)
+System.Runtime.CompilerServices.AsyncVoidMethodBuilder:Start(TStateMachine&)
+WW1.UI.GUI_MainMenu_Ctrl:Update() (at F:/WW1Series_Laurens_Staging_Steam/Assets/GUI Eastern Front/Scripts/UI/Core/MainMenu/Ctrl/GUI_MainMenu_Ctrl.cs:133)
+
+Unloading 1484 unused Assets to reduce memory usage. Loaded Objects now: 59489.
+Total: 20.066500 ms (FindLiveObjects: 4.204300 ms CreateObjectMapping: 1.167200 ms MarkObjects: 13.527300 ms  DeleteObjects: 1.167400 ms)
+
+[Network] Joining Photon lobby.
+Unity.Collections.Enumerator:MoveNext() (at ./Library/PackageCache/com.unity.collections@010f14fa5e2c/Unity.Collections/NativeParallelMultiHashMap.cs:492)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WW1.Networking.<JoinPhotonLobbyAsync>d__20:MoveNext() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/MainMenu/Connection/WW1PhotonConnection.cs:449)
+UnityEngine.StateMachineBox`1:DoMoveNext()
+WW1.Networking.WW1PhotonConnection:GetLobbyType(Nullable`1, Nullable`1) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/MainMenu/Connection/WW1PhotonConnection.cs:444)
+WW1.UI.<OnConnectedToPhotonServer>d__10:MoveNext() (at F:/WW1Series_Laurens_Staging_Steam/Assets/GUI Eastern Front/Scripts/UI/Core/MainMenu/Ctrl/GUI_MainMenu_Ctrl.cs:148)
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+Pool`1:GetUsed() (at F:/WW1Series_Laurens_Staging_Steam/Assets/GUI Eastern Front/Scripts/Misc/Pool.cs:115)
+IntListData:get_ListInts() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Misc/IntListData.cs:10)
+WW1.<WaitUntilAsync>d__10:MoveNext() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Tools/AwaitableUtils.cs:160)
+UnityEngine.StateMachineBox`1:DoMoveNext()
+Pool`1:GetUsed() (at F:/WW1Series_Laurens_Staging_Steam/Assets/GUI Eastern Front/Scripts/Misc/Pool.cs:115)
+Unity.Collections.LowLevel.Unsafe.Enumerator:System.Collections.IEnumerator.get_Current() (at ./Library/PackageCache/com.unity.collections@010f14fa5e2c/Unity.Collections/UnsafeList.cs:1051)
+
+[Network] Successfully joined Photon lobby.
+Unity.Collections.Enumerator:MoveNext() (at ./Library/PackageCache/com.unity.collections@010f14fa5e2c/Unity.Collections/NativeParallelMultiHashMap.cs:492)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WW1.Networking.<JoinPhotonLobbyAsync>d__20:MoveNext() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/MainMenu/Connection/WW1PhotonConnection.cs:462)
+UnityEngine.StateMachineBox`1:DoMoveNext()
+Pool`1:GetUsed() (at F:/WW1Series_Laurens_Staging_Steam/Assets/GUI Eastern Front/Scripts/Misc/Pool.cs:115)
+IntListData:get_ListInts() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Misc/IntListData.cs:10)
+WW1.<WaitUntilAsync>d__10:MoveNext() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Tools/AwaitableUtils.cs:160)
+UnityEngine.StateMachineBox`1:DoMoveNext()
+Pool`1:GetUsed() (at F:/WW1Series_Laurens_Staging_Steam/Assets/GUI Eastern Front/Scripts/Misc/Pool.cs:115)
+Unity.Collections.LowLevel.Unsafe.Enumerator:System.Collections.IEnumerator.get_Current() (at ./Library/PackageCache/com.unity.collections@010f14fa5e2c/Unity.Collections/UnsafeList.cs:1051)
+
+[Network] JoinRoomAsync: Checking conditions before joining room
+Unity.Collections.Enumerator:MoveNext() (at ./Library/PackageCache/com.unity.collections@010f14fa5e2c/Unity.Collections/NativeParallelMultiHashMap.cs:492)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WW1.Networking.<JoinRoomAsync>d__37:MoveNext() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/MainMenu/Connection/WW1PhotonConnection.cs:1028)
+UnityEngine.StateMachineBox`1:DoMoveNext()
+WW1.Networking.WW1PhotonConnection:AddExtraRoomProperties(Dictionary`2, Dictionary`2) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/MainMenu/Connection/WW1PhotonConnection.cs:937)
+WW1.UI.<PressedJoinMatch>d__35:MoveNext() (at F:/WW1Series_Laurens_Staging_Steam/Assets/GUI Eastern Front/Scripts/UI/Core/MainMenu/FindGame/GUI_MainMenu_FindMatch.cs:205)
+System.Runtime.CompilerServices.AsyncVoidMethodBuilder:Start(TStateMachine&)
+WW1.UI.GUI_MainMenu_FindMatch:JoinOnDoubleClick(Boolean) (at F:/WW1Series_Laurens_Staging_Steam/Assets/GUI Eastern Front/Scripts/UI/Core/MainMenu/FindGame/GUI_MainMenu_FindMatch.cs:197)
+WW1.UI.MainMenu.GUI_MainMenu_MatchEntry:OnPressedJoin() (at F:/WW1Series_Laurens_Staging_Steam/Assets/GUI Eastern Front/Scripts/UI/Core/MainMenu/GUI_MainMenu_MatchEntry.cs:229)
+Unity.Mathematics.math:max(Int32, Int32) (at F:/WW1Series_Laurens_Staging_Steam/Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/math.cs:987)
+WW1.UI.WW1RewiredInputModule:ProcessMousePress(MouseButtonEventData) (at F:/WW1Series_Laurens_Staging_Steam/Assets/GUI Eastern Front/Scripts/Input/WW1RewiredInputModule.cs:978)
+WW1.UI.WW1RewiredInputModule:ProcessMouseEvent(Int32) (at F:/WW1Series_Laurens_Staging_Steam/Assets/GUI Eastern Front/Scripts/Input/WW1RewiredInputModule.cs:873)
+WW1.UI.WW1RewiredInputModule:ProcessMouseEvent() (at F:/WW1Series_Laurens_Staging_Steam/Assets/GUI Eastern Front/Scripts/Input/WW1RewiredInputModule.cs:855)
+WW1.UI.WW1RewiredInputModule:Process() (at F:/WW1Series_Laurens_Staging_Steam/Assets/GUI Eastern Front/Scripts/Input/WW1RewiredInputModule.cs:535)
+UnityEngine.EventSystems.EventSystem:Update() (at ./Packages/com.unity.ugui/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[Photon] [2131] Reset inactivity timer when it was at 1766.8s [keyword: inactivityDisconnect_a]
+Unity.Collections.Enumerator:MoveNext() (at ./Library/PackageCache/com.unity.collections@010f14fa5e2c/Unity.Collections/NativeParallelMultiHashMap.cs:492)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WW1.Networking.WW1PhotonConnection:ResetInactiveTimeout() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/MainMenu/Connection/WW1PhotonConnection.cs:1396)
+WW1.Networking.<JoinRoomAsync>d__37:MoveNext() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/MainMenu/Connection/WW1PhotonConnection.cs:1031)
+UnityEngine.StateMachineBox`1:DoMoveNext()
+WW1.Networking.WW1PhotonConnection:AddExtraRoomProperties(Dictionary`2, Dictionary`2) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/MainMenu/Connection/WW1PhotonConnection.cs:937)
+WW1.UI.<PressedJoinMatch>d__35:MoveNext() (at F:/WW1Series_Laurens_Staging_Steam/Assets/GUI Eastern Front/Scripts/UI/Core/MainMenu/FindGame/GUI_MainMenu_FindMatch.cs:205)
+System.Runtime.CompilerServices.AsyncVoidMethodBuilder:Start(TStateMachine&)
+WW1.UI.GUI_MainMenu_FindMatch:JoinOnDoubleClick(Boolean) (at F:/WW1Series_Laurens_Staging_Steam/Assets/GUI Eastern Front/Scripts/UI/Core/MainMenu/FindGame/GUI_MainMenu_FindMatch.cs:197)
+WW1.UI.MainMenu.GUI_MainMenu_MatchEntry:OnPressedJoin() (at F:/WW1Series_Laurens_Staging_Steam/Assets/GUI Eastern Front/Scripts/UI/Core/MainMenu/GUI_MainMenu_MatchEntry.cs:229)
+Unity.Mathematics.math:max(Int32, Int32) (at F:/WW1Series_Laurens_Staging_Steam/Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/math.cs:987)
+WW1.UI.WW1RewiredInputModule:ProcessMousePress(MouseButtonEventData) (at F:/WW1Series_Laurens_Staging_Steam/Assets/GUI Eastern Front/Scripts/Input/WW1RewiredInputModule.cs:978)
+WW1.UI.WW1RewiredInputModule:ProcessMouseEvent(Int32) (at F:/WW1Series_Laurens_Staging_Steam/Assets/GUI Eastern Front/Scripts/Input/WW1RewiredInputModule.cs:873)
+WW1.UI.WW1RewiredInputModule:ProcessMouseEvent() (at F:/WW1Series_Laurens_Staging_Steam/Assets/GUI Eastern Front/Scripts/Input/WW1RewiredInputModule.cs:855)
+WW1.UI.WW1RewiredInputModule:Process() (at F:/WW1Series_Laurens_Staging_Steam/Assets/GUI Eastern Front/Scripts/Input/WW1RewiredInputModule.cs:535)
+UnityEngine.EventSystems.EventSystem:Update() (at ./Packages/com.unity.ugui/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[Network] Joining room
+Unity.Collections.Enumerator:MoveNext() (at ./Library/PackageCache/com.unity.collections@010f14fa5e2c/Unity.Collections/NativeParallelMultiHashMap.cs:492)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WW1.Networking.<JoinRoomAsync>d__37:MoveNext() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/MainMenu/Connection/WW1PhotonConnection.cs:1223)
+UnityEngine.StateMachineBox`1:DoMoveNext()
+WW1.Networking.WW1PhotonConnection:AddExtraRoomProperties(Dictionary`2, Dictionary`2) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/MainMenu/Connection/WW1PhotonConnection.cs:937)
+WW1.UI.<PressedJoinMatch>d__35:MoveNext() (at F:/WW1Series_Laurens_Staging_Steam/Assets/GUI Eastern Front/Scripts/UI/Core/MainMenu/FindGame/GUI_MainMenu_FindMatch.cs:205)
+System.Runtime.CompilerServices.AsyncVoidMethodBuilder:Start(TStateMachine&)
+WW1.UI.GUI_MainMenu_FindMatch:JoinOnDoubleClick(Boolean) (at F:/WW1Series_Laurens_Staging_Steam/Assets/GUI Eastern Front/Scripts/UI/Core/MainMenu/FindGame/GUI_MainMenu_FindMatch.cs:197)
+WW1.UI.MainMenu.GUI_MainMenu_MatchEntry:OnPressedJoin() (at F:/WW1Series_Laurens_Staging_Steam/Assets/GUI Eastern Front/Scripts/UI/Core/MainMenu/GUI_MainMenu_MatchEntry.cs:229)
+Unity.Mathematics.math:max(Int32, Int32) (at F:/WW1Series_Laurens_Staging_Steam/Library/PackageCache/com.unity.mathematics@19a9377c4ffa/Unity.Mathematics/math.cs:987)
+WW1.UI.WW1RewiredInputModule:ProcessMousePress(MouseButtonEventData) (at F:/WW1Series_Laurens_Staging_Steam/Assets/GUI Eastern Front/Scripts/Input/WW1RewiredInputModule.cs:978)
+WW1.UI.WW1RewiredInputModule:ProcessMouseEvent(Int32) (at F:/WW1Series_Laurens_Staging_Steam/Assets/GUI Eastern Front/Scripts/Input/WW1RewiredInputModule.cs:873)
+WW1.UI.WW1RewiredInputModule:ProcessMouseEvent() (at F:/WW1Series_Laurens_Staging_Steam/Assets/GUI Eastern Front/Scripts/Input/WW1RewiredInputModule.cs:855)
+WW1.UI.WW1RewiredInputModule:Process() (at F:/WW1Series_Laurens_Staging_Steam/Assets/GUI Eastern Front/Scripts/Input/WW1RewiredInputModule.cs:535)
+UnityEngine.EventSystems.EventSystem:Update() (at ./Packages/com.unity.ugui/Runtime/UGUI/EventSystem/EventSystem.cs:514)
+
+[Network] Joined room.
+Unity.Collections.Enumerator:MoveNext() (at ./Library/PackageCache/com.unity.collections@010f14fa5e2c/Unity.Collections/NativeParallelMultiHashMap.cs:492)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WW1.Networking.<JoinRoomAsync>d__37:MoveNext() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/MainMenu/Connection/WW1PhotonConnection.cs:1260)
+UnityEngine.StateMachineBox`1:DoMoveNext()
+Pool`1:GetUsed() (at F:/WW1Series_Laurens_Staging_Steam/Assets/GUI Eastern Front/Scripts/Misc/Pool.cs:115)
+IntListData:get_ListInts() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Misc/IntListData.cs:10)
+WW1.Networking.<WaitForOkResponse>d__2:MoveNext() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/MainMenu/Connection/WW1PhotonConnection.cs:1498)
+UnityEngine.StateMachineBox`1:DoMoveNext()
+Pool`1:GetUsed() (at F:/WW1Series_Laurens_Staging_Steam/Assets/GUI Eastern Front/Scripts/Misc/Pool.cs:115)
+Unity.Profiling.AutoScope:Dispose() (at ./Library/PackageCache/com.unity.profiling.core@8a49f7027d06/Runtime/ProfilerMarker3Params.cs:167)
+WW1.Networking.WW1PhotonConnection:OnJoinedRoom() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/MainMenu/Connection/WW1PhotonConnection.cs:1543)
+Photon.Realtime.MatchMakingCallbacksContainer:OnJoinedRoom() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Plugins/packages/Photon/PhotonRealtime/Code/LoadBalancingClient.cs:4242)
+Photon.Realtime.LoadBalancingClient:OnEvent(EventData) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Plugins/packages/Photon/PhotonRealtime/Code/LoadBalancingClient.cs:3268)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(StreamBuffer)
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+Photon.Pun.PhotonHandler:Dispatch() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Plugins/packages/PhotonUnityNetworking/Code/PhotonHandler.cs:236)
+
+Didn't find loading screen audio for the level (_40VBeach), will play the default audio
+Unity.Collections.Enumerator:MoveNext() (at ./Library/PackageCache/com.unity.collections@010f14fa5e2c/Unity.Collections/NativeParallelMultiHashMap.cs:492)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WW1.Audio.LoadingScreenAudioManager:HandleOnLevelLoadStartedEvent(OnLevelLoadStart) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Audio/Managers/LoadingScreenAudioManager.cs:49)
+WW1.Events.EventInvoker:Invoke(T) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Misc/EventSystem/EventInvoker.cs:126)
+LoadingScreenManager:DoLoadLevel(GameLoadInfo, Boolean) (at F:/WW1Series_Laurens_Staging_Steam/Assets/GUI Eastern Front/Scripts/UI/Core/LoadingScreen/LoadingScreenManager.cs:179)
+LoadingScreenManager:LoadLevelInCurrentRoom() (at F:/WW1Series_Laurens_Staging_Steam/Assets/GUI Eastern Front/Scripts/UI/Core/LoadingScreen/LoadingScreenManager.cs:138)
+WW1.Networking.WW1PhotonConnection:EnsureRoomSceneLoaded() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/MainMenu/Connection/WW1PhotonConnection.cs:1322)
+WW1.Networking.<JoinRoomAsync>d__37:MoveNext() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/MainMenu/Connection/WW1PhotonConnection.cs:1261)
+UnityEngine.StateMachineBox`1:DoMoveNext()
+Pool`1:GetUsed() (at F:/WW1Series_Laurens_Staging_Steam/Assets/GUI Eastern Front/Scripts/Misc/Pool.cs:115)
+IntListData:get_ListInts() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Misc/IntListData.cs:10)
+WW1.Networking.<WaitForOkResponse>d__2:MoveNext() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/MainMenu/Connection/WW1PhotonConnection.cs:1498)
+UnityEngine.StateMachineBox`1:DoMoveNext()
+Pool`1:GetUsed() (at F:/WW1Series_Laurens_Staging_Steam/Assets/GUI Eastern Front/Scripts/Misc/Pool.cs:115)
+Unity.Profiling.AutoScope:Dispose() (at ./Library/PackageCache/com.unity.profiling.core@8a49f7027d06/Runtime/ProfilerMarker3Params.cs:167)
+WW1.Networking.WW1PhotonConnection:OnJoinedRoom() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/MainMenu/Connection/WW1PhotonConnection.cs:1543)
+Photon.Realtime.MatchMakingCallbacksContainer:OnJoinedRoom() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Plugins/packages/Photon/PhotonRealtime/Code/LoadBalancingClient.cs:4242)
+Photon.Realtime.LoadBalancingClient:OnEvent(EventData) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Plugins/packages/Photon/PhotonRealtime/Code/LoadBalancingClient.cs:3268)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(StreamBuffer)
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+Photon.Pun.PhotonHandler:Dispatch() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Plugins/packages/PhotonUnityNetworking/Code/PhotonHandler.cs:236)
+
+[04:58:37.39164 | 19:10:07.677] Loading Assets/Scenes/Levels/_40VBeach_BAKED.unity Expedition
+Unity.Collections.Enumerator:MoveNext() (at ./Library/PackageCache/com.unity.collections@010f14fa5e2c/Unity.Collections/NativeParallelMultiHashMap.cs:492)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+LoadingScreenManager:DoLoadLevel(GameLoadInfo, Boolean) (at F:/WW1Series_Laurens_Staging_Steam/Assets/GUI Eastern Front/Scripts/UI/Core/LoadingScreen/LoadingScreenManager.cs:182)
+LoadingScreenManager:LoadLevelInCurrentRoom() (at F:/WW1Series_Laurens_Staging_Steam/Assets/GUI Eastern Front/Scripts/UI/Core/LoadingScreen/LoadingScreenManager.cs:138)
+WW1.Networking.WW1PhotonConnection:EnsureRoomSceneLoaded() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/MainMenu/Connection/WW1PhotonConnection.cs:1322)
+WW1.Networking.<JoinRoomAsync>d__37:MoveNext() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/MainMenu/Connection/WW1PhotonConnection.cs:1261)
+UnityEngine.StateMachineBox`1:DoMoveNext()
+Pool`1:GetUsed() (at F:/WW1Series_Laurens_Staging_Steam/Assets/GUI Eastern Front/Scripts/Misc/Pool.cs:115)
+IntListData:get_ListInts() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Misc/IntListData.cs:10)
+WW1.Networking.<WaitForOkResponse>d__2:MoveNext() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/MainMenu/Connection/WW1PhotonConnection.cs:1498)
+UnityEngine.StateMachineBox`1:DoMoveNext()
+Pool`1:GetUsed() (at F:/WW1Series_Laurens_Staging_Steam/Assets/GUI Eastern Front/Scripts/Misc/Pool.cs:115)
+Unity.Profiling.AutoScope:Dispose() (at ./Library/PackageCache/com.unity.profiling.core@8a49f7027d06/Runtime/ProfilerMarker3Params.cs:167)
+WW1.Networking.WW1PhotonConnection:OnJoinedRoom() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/MainMenu/Connection/WW1PhotonConnection.cs:1543)
+Photon.Realtime.MatchMakingCallbacksContainer:OnJoinedRoom() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Plugins/packages/Photon/PhotonRealtime/Code/LoadBalancingClient.cs:4242)
+Photon.Realtime.LoadBalancingClient:OnEvent(EventData) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Plugins/packages/Photon/PhotonRealtime/Code/LoadBalancingClient.cs:3268)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(StreamBuffer)
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+Photon.Pun.PhotonHandler:Dispatch() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Plugins/packages/PhotonUnityNetworking/Code/PhotonHandler.cs:236)
+
+Already loading Assets/Scenes/Levels/_40VBeach_BAKED.unity, lets not load Assets/Scenes/Levels/_40VBeach_BAKED.unity!
+Unity.Collections.Enumerator:MoveNext() (at ./Library/PackageCache/com.unity.collections@010f14fa5e2c/Unity.Collections/NativeParallelMultiHashMap.cs:492)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+LoadingScreenManager:DoLoadLevel(GameLoadInfo, Boolean) (at F:/WW1Series_Laurens_Staging_Steam/Assets/GUI Eastern Front/Scripts/UI/Core/LoadingScreen/LoadingScreenManager.cs:175)
+LoadingScreenManager:LoadLevelInCurrentRoom() (at F:/WW1Series_Laurens_Staging_Steam/Assets/GUI Eastern Front/Scripts/UI/Core/LoadingScreen/LoadingScreenManager.cs:138)
+WW1.Networking.<JoinRoomAsync>d__37:MoveNext() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/MainMenu/Connection/WW1PhotonConnection.cs:1261)
+UnityEngine.StateMachineBox`1:DoMoveNext()
+Pool`1:GetUsed() (at F:/WW1Series_Laurens_Staging_Steam/Assets/GUI Eastern Front/Scripts/Misc/Pool.cs:115)
+IntListData:get_ListInts() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Misc/IntListData.cs:10)
+WW1.Networking.<WaitForOkResponse>d__2:MoveNext() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/MainMenu/Connection/WW1PhotonConnection.cs:1498)
+UnityEngine.StateMachineBox`1:DoMoveNext()
+Pool`1:GetUsed() (at F:/WW1Series_Laurens_Staging_Steam/Assets/GUI Eastern Front/Scripts/Misc/Pool.cs:115)
+Unity.Profiling.AutoScope:Dispose() (at ./Library/PackageCache/com.unity.profiling.core@8a49f7027d06/Runtime/ProfilerMarker3Params.cs:167)
+WW1.Networking.WW1PhotonConnection:OnJoinedRoom() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/MainMenu/Connection/WW1PhotonConnection.cs:1543)
+Photon.Realtime.MatchMakingCallbacksContainer:OnJoinedRoom() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Plugins/packages/Photon/PhotonRealtime/Code/LoadBalancingClient.cs:4242)
+Photon.Realtime.LoadBalancingClient:OnEvent(EventData) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Plugins/packages/Photon/PhotonRealtime/Code/LoadBalancingClient.cs:3268)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(StreamBuffer)
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+Photon.Pun.PhotonHandler:Dispatch() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Plugins/packages/PhotonUnityNetworking/Code/PhotonHandler.cs:236)
+
+Already loading Assets/Scenes/Levels/_40VBeach_BAKED.unity, lets not load Assets/Scenes/Levels/_40VBeach_BAKED.unity!
+Unity.Collections.Enumerator:MoveNext() (at ./Library/PackageCache/com.unity.collections@010f14fa5e2c/Unity.Collections/NativeParallelMultiHashMap.cs:492)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+LoadingScreenManager:DoLoadLevel(GameLoadInfo, Boolean) (at F:/WW1Series_Laurens_Staging_Steam/Assets/GUI Eastern Front/Scripts/UI/Core/LoadingScreen/LoadingScreenManager.cs:175)
+LoadingScreenManager:LoadLevelInCurrentRoom() (at F:/WW1Series_Laurens_Staging_Steam/Assets/GUI Eastern Front/Scripts/UI/Core/LoadingScreen/LoadingScreenManager.cs:138)
+LoadingScreenManager:OnJoinedRoom() (at F:/WW1Series_Laurens_Staging_Steam/Assets/GUI Eastern Front/Scripts/UI/Core/LoadingScreen/LoadingScreenManager.cs:240)
+Photon.Realtime.MatchMakingCallbacksContainer:OnJoinedRoom() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Plugins/packages/Photon/PhotonRealtime/Code/LoadBalancingClient.cs:4242)
+Photon.Realtime.LoadBalancingClient:OnEvent(EventData) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Plugins/packages/Photon/PhotonRealtime/Code/LoadBalancingClient.cs:3268)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(StreamBuffer)
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+Photon.Pun.PhotonHandler:Dispatch() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Plugins/packages/PhotonUnityNetworking/Code/PhotonHandler.cs:236)
+
+PreWarming ScriptableSingleton<T>
+Unity.Collections.Enumerator:MoveNext() (at ./Library/PackageCache/com.unity.collections@010f14fa5e2c/Unity.Collections/NativeParallelMultiHashMap.cs:492)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ScriptableSingleton`1:PreLoadAllSingletons() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Misc/ScriptableSingleton.cs:59)
+<CLoadNextScene>d__14:MoveNext() (at F:/WW1Series_Laurens_Staging_Steam/Assets/GUI Eastern Front/Scripts/UI/Core/LoadingScreen/LoadingScreenManager.cs:205)
+Photon.Pun.PhotonNetwork:get_OfflineMode() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Plugins/packages/PhotonUnityNetworking/Code/PhotonNetwork.cs:443)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 22)
+UnloadTime: 46.665800 ms
+Unloading 4104 unused Assets to reduce memory usage. Loaded Objects now: 15535.
+Total: 20.045900 ms (FindLiveObjects: 0.725900 ms CreateObjectMapping: 0.265100 ms MarkObjects: 12.277000 ms  DeleteObjects: 6.777600 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 19)
+Unloading 559 unused Assets to reduce memory usage. Loaded Objects now: 14519.
+Total: 17.249300 ms (FindLiveObjects: 0.431800 ms CreateObjectMapping: 0.247200 ms MarkObjects: 12.225400 ms  DeleteObjects: 4.344600 ms)
+
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+Unloading 1 Unused Serialized files (Serialized files now loaded: 22)
+UnloadTime: 0.279900 ms
+SceneLoaded: Assets/Scenes/Levels/_40VBeach_BAKED.unity
+Unity.Collections.Enumerator:MoveNext() (at ./Library/PackageCache/com.unity.collections@010f14fa5e2c/Unity.Collections/NativeParallelMultiHashMap.cs:492)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+LevelLoader:SceneManager_sceneLoaded(Scene, LoadSceneMode) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/managers/LevelLoader.cs:41)
+UnityEngine.SceneManagement.SceneManager:Internal_SceneLoaded(Scene, LoadSceneMode)
+
+Unloading 6166 unused Assets to reduce memory usage. Loaded Objects now: 334617.
+Total: 54.034500 ms (FindLiveObjects: 13.551200 ms CreateObjectMapping: 6.148900 ms MarkObjects: 32.375900 ms  DeleteObjects: 1.958000 ms)
+
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script (UnityEditor.Rendering.HighDefinition.MaterialExternalReferences) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+No PlayFabEntityId for <noparse>Murican Eagle</noparse>. Now what?
+Unity.Collections.Enumerator:MoveNext() (at ./Library/PackageCache/com.unity.collections@010f14fa5e2c/Unity.Collections/NativeParallelMultiHashMap.cs:492)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogError(Object)
+WW1.Services.PlayFab.PlayFabVoiceService:HandleOnPlayerJoinedGameEvent(OnPlayerJoinedGame) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Services/PlayFab/PlayFabVoiceService.cs:287)
+WW1.Events.EventInvoker:Invoke(T) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Misc/EventSystem/EventInvoker.cs:126)
+WW1.GameSetup:JoinPlayer(PlayerNode, Factions, PlayerKit) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/managers/GameSetup/GameSetup.cs:1654)
+WW1.GameSetup:RPCJoinPlayerList(SerializationBuffer) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/managers/GameSetup/GameSetup.cs:1538)
+WW1.Networking.GeneratedRPCInvoker:TryInvoke(WW1RPCSystem, IWW1RPCView, UInt32, SenderInfo, SerializationBuffer) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Networking/RPC/GeneratedRPCInvoker.cs:2412)
+WW1.Networking.WW1RPCSystem:ExecuteRPC(SerializationBuffer) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Networking/RPC/WW1RPCSystem.cs:136)
+WW1.Networking.WW1RPCSystem:HandleOnEventReceivedEvent(EventData) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Networking/RPC/WW1RPCSystem.cs:254)
+CodeStage.AntiCheat.Detectors.ACTkDetectorBase`1:set_IsRunning(Boolean) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Plugins/packages/AntiCheatToolkit/Runtime/Scripts/Detectors/Abstract/ACTkDetectorBase.cs:70)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(StreamBuffer)
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+Photon.Pun.PhotonHandler:Dispatch() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Plugins/packages/PhotonUnityNetworking/Code/PhotonHandler.cs:236)
+
+[04:58:43.59518 | 19:10:01.471] Init player match with:  Level:_40VBeach Gametype:Expedition serverGameStatus: MatchPlaying matchWinner None timeRoundStarted: 4225515.155 roundTimeLimit 999 realtimeSinceStartup=47.39025 IsCustomMatch=False IsPrivateMatch=False AllowProgression=True
+Unity.Collections.Enumerator:MoveNext() (at ./Library/PackageCache/com.unity.collections@010f14fa5e2c/Unity.Collections/NativeParallelMultiHashMap.cs:492)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GamePlayManager:RPCSetupInitMatch(Factions, GameType, Int32, GameStatus, Int32, Int32, Double, Double, RpcMessageInfo) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/managers/GameSetup/GamePlayManager.cs:197)
+WW1.Networking.GeneratedRPCInvoker:TryInvoke(WW1RPCSystem, IWW1RPCView, UInt32, SenderInfo, SerializationBuffer) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Networking/RPC/GeneratedRPCInvoker.cs:742)
+WW1.Networking.WW1RPCSystem:ExecuteRPC(SerializationBuffer) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Networking/RPC/WW1RPCSystem.cs:136)
+WW1.Networking.WW1RPCSystem:HandleOnEventReceivedEvent(EventData) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Networking/RPC/WW1RPCSystem.cs:254)
+CodeStage.AntiCheat.Detectors.ACTkDetectorBase`1:set_IsRunning(Boolean) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Plugins/packages/AntiCheatToolkit/Runtime/Scripts/Detectors/Abstract/ACTkDetectorBase.cs:70)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(StreamBuffer)
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+Photon.Pun.PhotonHandler:Dispatch() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Plugins/packages/PhotonUnityNetworking/Code/PhotonHandler.cs:236)
+
+[04:58:43.59619 | 19:10:01.470] GameStatus now from MatchAwaitingSetup to MatchPlaying CurrentMC: #362 '<noparse>Jitterbug</noparse>'
+Unity.Collections.Enumerator:MoveNext() (at ./Library/PackageCache/com.unity.collections@010f14fa5e2c/Unity.Collections/NativeParallelMultiHashMap.cs:492)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+GamePlayManager:set_gameStatus(GameStatus) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/managers/GameSetup/GamePlayManager.cs:71)
+GamePlayManager:RPCSetupInitMatch(Factions, GameType, Int32, GameStatus, Int32, Int32, Double, Double, RpcMessageInfo) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/managers/GameSetup/GamePlayManager.cs:208)
+WW1.Networking.GeneratedRPCInvoker:TryInvoke(WW1RPCSystem, IWW1RPCView, UInt32, SenderInfo, SerializationBuffer) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Networking/RPC/GeneratedRPCInvoker.cs:742)
+WW1.Networking.WW1RPCSystem:ExecuteRPC(SerializationBuffer) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Networking/RPC/WW1RPCSystem.cs:136)
+WW1.Networking.WW1RPCSystem:HandleOnEventReceivedEvent(EventData) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Networking/RPC/WW1RPCSystem.cs:254)
+CodeStage.AntiCheat.Detectors.ACTkDetectorBase`1:set_IsRunning(Boolean) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Plugins/packages/AntiCheatToolkit/Runtime/Scripts/Detectors/Abstract/ACTkDetectorBase.cs:70)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(StreamBuffer)
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+Photon.Pun.PhotonHandler:Dispatch() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Plugins/packages/PhotonUnityNetworking/Code/PhotonHandler.cs:236)
+
+[04:58:43.59720 | 19:10:01.469] RoundDidStart with: statusMatchPlaying CurrentMC:#362 '<noparse>Jitterbug</noparse>'
+Unity.Collections.Enumerator:MoveNext() (at ./Library/PackageCache/com.unity.collections@010f14fa5e2c/Unity.Collections/NativeParallelMultiHashMap.cs:492)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<CApplyMatchSetupData>d__18:MoveNext() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/managers/GameSetup/GamePlayManager.cs:251)
+Photon.Pun.PhotonNetwork:get_OfflineMode() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Plugins/packages/PhotonUnityNetworking/Code/PhotonNetwork.cs:443)
+WW1.Networking.GeneratedRPCInvoker:TryInvoke(WW1RPCSystem, IWW1RPCView, UInt32, SenderInfo, SerializationBuffer) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Networking/RPC/GeneratedRPCInvoker.cs:742)
+WW1.Networking.WW1RPCSystem:ExecuteRPC(SerializationBuffer) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Networking/RPC/WW1RPCSystem.cs:136)
+WW1.Networking.WW1RPCSystem:HandleOnEventReceivedEvent(EventData) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Networking/RPC/WW1RPCSystem.cs:254)
+CodeStage.AntiCheat.Detectors.ACTkDetectorBase`1:set_IsRunning(Boolean) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Plugins/packages/AntiCheatToolkit/Runtime/Scripts/Detectors/Abstract/ACTkDetectorBase.cs:70)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(StreamBuffer)
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+Photon.Pun.PhotonHandler:Dispatch() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Plugins/packages/PhotonUnityNetworking/Code/PhotonHandler.cs:236)
+
+[04:58:43.69931 | 19:10:01.367] Client received GameSetupReady signal
+Unity.Collections.Enumerator:MoveNext() (at ./Library/PackageCache/com.unity.collections@010f14fa5e2c/Unity.Collections/NativeParallelMultiHashMap.cs:492)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WW1.<RPCGameSetupReady>d__97:MoveNext() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/managers/GameSetup/GameSetup.cs:1702)
+Photon.Pun.PhotonNetwork:get_OfflineMode() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Plugins/packages/PhotonUnityNetworking/Code/PhotonNetwork.cs:443)
+WW1.Networking.GeneratedRPCInvoker:TryInvoke(WW1RPCSystem, IWW1RPCView, UInt32, SenderInfo, SerializationBuffer) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Networking/RPC/GeneratedRPCInvoker.cs:2376)
+WW1.Networking.WW1RPCSystem:ExecuteRPC(SerializationBuffer) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Networking/RPC/WW1RPCSystem.cs:136)
+WW1.Networking.WW1RPCSystem:HandleOnEventReceivedEvent(EventData) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Networking/RPC/WW1RPCSystem.cs:254)
+CodeStage.AntiCheat.Detectors.ACTkDetectorBase`1:set_IsRunning(Boolean) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Plugins/packages/AntiCheatToolkit/Runtime/Scripts/Detectors/Abstract/ACTkDetectorBase.cs:70)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(StreamBuffer)
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+Photon.Pun.PhotonHandler:Dispatch() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Plugins/packages/PhotonUnityNetworking/Code/PhotonHandler.cs:236)
+
+[04:58:43.69982 | 19:10:01.366] Client now reached 'isEverythingReadyLoading' in GameSetupReady
+Unity.Collections.Enumerator:MoveNext() (at ./Library/PackageCache/com.unity.collections@010f14fa5e2c/Unity.Collections/NativeParallelMultiHashMap.cs:492)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WW1.<RPCGameSetupReady>d__97:MoveNext() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/managers/GameSetup/GameSetup.cs:1734)
+Photon.Pun.PhotonNetwork:get_OfflineMode() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Plugins/packages/PhotonUnityNetworking/Code/PhotonNetwork.cs:443)
+WW1.Networking.GeneratedRPCInvoker:TryInvoke(WW1RPCSystem, IWW1RPCView, UInt32, SenderInfo, SerializationBuffer) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Networking/RPC/GeneratedRPCInvoker.cs:2376)
+WW1.Networking.WW1RPCSystem:ExecuteRPC(SerializationBuffer) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Networking/RPC/WW1RPCSystem.cs:136)
+WW1.Networking.WW1RPCSystem:HandleOnEventReceivedEvent(EventData) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Networking/RPC/WW1RPCSystem.cs:254)
+CodeStage.AntiCheat.Detectors.ACTkDetectorBase`1:set_IsRunning(Boolean) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Plugins/packages/AntiCheatToolkit/Runtime/Scripts/Detectors/Abstract/ACTkDetectorBase.cs:70)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(StreamBuffer)
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+Photon.Pun.PhotonHandler:Dispatch() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Plugins/packages/PhotonUnityNetworking/Code/PhotonHandler.cs:236)
+
+CDeploy called on a StaticDeployable that isn't currently Undeployed. Current DeployState: Deployed
+Unity.Collections.Enumerator:MoveNext() (at ./Library/PackageCache/com.unity.collections@010f14fa5e2c/Unity.Collections/NativeParallelMultiHashMap.cs:492)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+<CDeploy>d__50:MoveNext() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/character/weapon/FireArms/StaticDeployable.cs:316)
+Photon.Pun.PhotonNetwork:get_OfflineMode() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Plugins/packages/PhotonUnityNetworking/Code/PhotonNetwork.cs:443)
+PlayerController:HandleOnPlayerSpawnedEvent(OnPlayerSpawned) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/character/PlayerController/PlayerController.cs:661)
+WW1.Events.EventSystem:Invoke(T) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Misc/EventSystem/EventSystem.cs:23)
+WW1.Events.EventSystem:Invoke(T) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Misc/EventSystem/EventSystem.cs:22)
+System.Threading.ExecutionContext:RunInternal(ExecutionContext, ContextCallback, Object, Boolean)
+System.Runtime.CompilerServices.MoveNextRunner:Run()
+Pool`1:GetUsed() (at F:/WW1Series_Laurens_Staging_Steam/Assets/GUI Eastern Front/Scripts/Misc/Pool.cs:115)
+Unity.Collections.LowLevel.Unsafe.Enumerator:System.Collections.IEnumerator.get_Current() (at ./Library/PackageCache/com.unity.collections@010f14fa5e2c/Unity.Collections/UnsafeList.cs:1051)
+
+No Factions found for NetworkIdentifier: e9d73302-253c-4479-a891-ead3581891c5
+Unity.Collections.Enumerator:MoveNext() (at ./Library/PackageCache/com.unity.collections@010f14fa5e2c/Unity.Collections/NativeParallelMultiHashMap.cs:492)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+WW1.Services.PlayFab.PlayFabVoiceService:TryGetOwningFactionForNetworkDescriptor(PARTY_NETWORK_DESCRIPTOR, Factions&) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Services/PlayFab/PlayFabVoiceService.cs:884)
+WW1.Services.PlayFab.PlayFabVoiceService:HandleOnPlayFabLocalUserConnectedToNetworkEvent(OnPlayFabLocalUserConnectedToNetworkEvent) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Services/PlayFab/PlayFabVoiceService.cs:615)
+WW1.Events.EventInvoker:Invoke(T) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Misc/EventSystem/EventInvoker.cs:126)
+WW1.PlayFabManager:Update() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Packages/PlayFab/PlayFabManager.cs:558)
+
+The referenced script (UnityEditor.Rendering.HighDefinition.MaterialExternalReferences) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script (UnityEditor.Rendering.HighDefinition.MaterialExternalReferences) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script (UnityEditor.Rendering.HighDefinition.MaterialExternalReferences) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script (UnityEditor.Rendering.HighDefinition.MaterialExternalReferences) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script (UnityEditor.Rendering.HighDefinition.MaterialExternalReferences) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script (UnityEditor.Rendering.HighDefinition.MaterialExternalReferences) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script (UnityEditor.Rendering.HighDefinition.MaterialExternalReferences) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script (UnityEditor.Rendering.HighDefinition.MaterialExternalReferences) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+The referenced script (UnityEditor.Rendering.HighDefinition.MaterialExternalReferences) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+Attackers secured 1_CapZone_B (CapZone) worth 75 momentum
+Unity.Collections.Enumerator:MoveNext() (at ./Library/PackageCache/com.unity.collections@010f14fa5e2c/Unity.Collections/NativeParallelMultiHashMap.cs:492)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WW1.ExpeditionGameMode:OnObjectiveStatusChanged(OnObjectiveStatusChanged) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/managers/GameTypes/Expedition/ExpeditionGameMode.cs:248)
+WW1.Events.EventInvoker:Invoke(T) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Misc/EventSystem/EventInvoker.cs:126)
+WW1.Events.EventSystem:Invoke(T) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Misc/EventSystem/EventSystem.cs:22)
+WW1.SectorManager:RPCSetObjectiveCaptureStatus(Objective, CaptureStatus, RpcMessageInfo) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/managers/SectorManager/SectorManager.cs:696)
+WW1.Networking.GeneratedRPCInvoker:TryInvoke(WW1RPCSystem, IWW1RPCView, UInt32, SenderInfo, SerializationBuffer) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Networking/RPC/GeneratedRPCInvoker.cs:2790)
+WW1.Networking.WW1RPCSystem:ExecuteRPC(SerializationBuffer) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Networking/RPC/WW1RPCSystem.cs:136)
+WW1.Networking.WW1RPCSystem:HandleOnEventReceivedEvent(EventData) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Networking/RPC/WW1RPCSystem.cs:254)
+CodeStage.AntiCheat.Detectors.ACTkDetectorBase`1:set_IsRunning(Boolean) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Plugins/packages/AntiCheatToolkit/Runtime/Scripts/Detectors/Abstract/ACTkDetectorBase.cs:70)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(StreamBuffer)
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+Photon.Pun.PhotonHandler:Dispatch() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Plugins/packages/PhotonUnityNetworking/Code/PhotonHandler.cs:236)
+
+MC setting attacker momentum from 56 to 125
+Unity.Collections.Enumerator:MoveNext() (at ./Library/PackageCache/com.unity.collections@010f14fa5e2c/Unity.Collections/NativeParallelMultiHashMap.cs:492)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WW1.ExpeditionGameMode:RPCSetAttackerMomentum(Int32) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/managers/GameTypes/Expedition/ExpeditionGameMode.cs:460)
+WW1.Networking.GeneratedRPCInvoker:TryInvoke(WW1RPCSystem, IWW1RPCView, UInt32, SenderInfo, SerializationBuffer) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Networking/RPC/GeneratedRPCInvoker.cs:2064)
+WW1.Networking.WW1RPCSystem:ExecuteRPC(SerializationBuffer) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Networking/RPC/WW1RPCSystem.cs:136)
+WW1.Networking.WW1RPCSystem:HandleOnEventReceivedEvent(EventData) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Networking/RPC/WW1RPCSystem.cs:254)
+CodeStage.AntiCheat.Detectors.ACTkDetectorBase`1:set_IsRunning(Boolean) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Plugins/packages/AntiCheatToolkit/Runtime/Scripts/Detectors/Abstract/ACTkDetectorBase.cs:70)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(StreamBuffer)
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+Photon.Pun.PhotonHandler:Dispatch() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Plugins/packages/PhotonUnityNetworking/Code/PhotonHandler.cs:236)
+
+Attackers secured 1_CapZone_A (CapZone) worth 0 momentum
+Unity.Collections.Enumerator:MoveNext() (at ./Library/PackageCache/com.unity.collections@010f14fa5e2c/Unity.Collections/NativeParallelMultiHashMap.cs:492)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WW1.ExpeditionGameMode:OnObjectiveStatusChanged(OnObjectiveStatusChanged) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/managers/GameTypes/Expedition/ExpeditionGameMode.cs:248)
+WW1.Events.EventInvoker:Invoke(T) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Misc/EventSystem/EventInvoker.cs:126)
+WW1.Events.EventSystem:Invoke(T) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Misc/EventSystem/EventSystem.cs:22)
+WW1.ExpeditionGameMode:RPCSetAttackerSpawnSectorIndex(Int32) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/managers/GameTypes/Expedition/ExpeditionGameMode.cs:1442)
+WW1.Networking.GeneratedRPCInvoker:TryInvoke(WW1RPCSystem, IWW1RPCView, UInt32, SenderInfo, SerializationBuffer) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Networking/RPC/GeneratedRPCInvoker.cs:2082)
+WW1.Networking.WW1RPCSystem:ExecuteRPC(SerializationBuffer) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Networking/RPC/WW1RPCSystem.cs:136)
+WW1.Networking.WW1RPCSystem:HandleOnEventReceivedEvent(EventData) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Networking/RPC/WW1RPCSystem.cs:254)
+CodeStage.AntiCheat.Detectors.ACTkDetectorBase`1:set_IsRunning(Boolean) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Plugins/packages/AntiCheatToolkit/Runtime/Scripts/Detectors/Abstract/ACTkDetectorBase.cs:70)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(StreamBuffer)
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+Photon.Pun.PhotonHandler:Dispatch() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Plugins/packages/PhotonUnityNetworking/Code/PhotonHandler.cs:236)
+
+MC setting attacker momentum from 125 to 125
+Unity.Collections.Enumerator:MoveNext() (at ./Library/PackageCache/com.unity.collections@010f14fa5e2c/Unity.Collections/NativeParallelMultiHashMap.cs:492)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WW1.ExpeditionGameMode:RPCSetAttackerMomentum(Int32) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/managers/GameTypes/Expedition/ExpeditionGameMode.cs:460)
+WW1.Networking.GeneratedRPCInvoker:TryInvoke(WW1RPCSystem, IWW1RPCView, UInt32, SenderInfo, SerializationBuffer) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Networking/RPC/GeneratedRPCInvoker.cs:2064)
+WW1.Networking.WW1RPCSystem:ExecuteRPC(SerializationBuffer) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Networking/RPC/WW1RPCSystem.cs:136)
+WW1.Networking.WW1RPCSystem:HandleOnEventReceivedEvent(EventData) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Networking/RPC/WW1RPCSystem.cs:254)
+CodeStage.AntiCheat.Detectors.ACTkDetectorBase`1:set_IsRunning(Boolean) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Plugins/packages/AntiCheatToolkit/Runtime/Scripts/Detectors/Abstract/ACTkDetectorBase.cs:70)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(StreamBuffer)
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+Photon.Pun.PhotonHandler:Dispatch() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Plugins/packages/PhotonUnityNetworking/Code/PhotonHandler.cs:236)
+
+The referenced script (UnityEditor.Rendering.HighDefinition.MaterialExternalReferences) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+[05:02:02.99237 | 19:06:42.074] [4226165.211] OnMasterClientSwitched from null to DiabloHitto [[steam]76561197967523271]
+Dracon [[steam]76561197993695007] (local)	ActorId: 375 InPlayerList: TrueJoinNetworkTime: 4225965.78
+DiabloHitto [[steam]76561197967523271]	ActorId: 13 InPlayerList: TrueJoinNetworkTime: 4225495.168
+TurnipTheBase [[steam]76561197983191200]	ActorId: 235 InPlayerList: TrueJoinNetworkTime: 4225493.591
+BlueBacon [[steam]76561197970613490]	ActorId: 237 InPlayerList: TrueJoinNetworkTime: 4225496.2
+Maximus [[steam]76561198925405325]	ActorId: 252 InPlayerList: TrueJoinNetworkTime: 4225498.285
+welfo56911 [[steam]76561199033346225]	ActorId: 255 InPlayerList: TrueJoinNetworkTime: 4225499.725
+nanashi [[steam]76561198140042684]	ActorId: 264 InPlayerList: TrueJoinNetworkTime: 4225494.895
+CooterCleavage [[steam]76561198058731470]	ActorId: 283 InPlayerList: TrueJoinNetworkTime: 4225495.203
+sage [[steam]76561198064975218]	ActorId: 286 InPlayerList: TrueJoinNetworkTime: 4225495.001
+Mystic [[steam]76561198080573976]	ActorId: 287 InPlayerList: TrueJoinNetworkTime: 4225496.139
+Lewerenz [[steam]76561198063516085]	ActorId: 289 InPlayerList: TrueJoinNetworkTime: 4225498.824
+mszekrenyi19 [[steam]76561198402366327]	ActorId: 301 InPlayerList: TrueJoinNetworkTime: 4225494.62
+VinnyxMac [[psn]4125058147696147981]	ActorId: 304 InPlayerList: TrueJoinNetworkTime: 4225495.412
+JROD890 [[steam]76561198112330745]	ActorId: 309 InPlayerList: TrueJoinNetworkTime: 4225496.74
+Obscene324 [[steam]76561198279168866]	ActorId: 311 InPlayerList: TrueJoinNetworkTime: 4225493.357
+Badgr [[steam]76561199122475110]	ActorId: 313 InPlayerList: TrueJoinNetworkTime: 4225495.364
+Los Banana |-Merca3s [[steam]76561198288178669]	ActorId: 320 InPlayerList: TrueJoinNetworkTime: 4225497.468
+b0rn in fire [[xbox]2533274973641003]	ActorId: 321 InPlayerList: TrueJoinNetworkTime: 4225497.633
+Crandad [[steam]76561198058080554]	ActorId: 322 InPlayerList: TrueJoinNetworkTime: 4225495.196
+Relic [[steam]76561197981063733]	ActorId: 328 InPlayerList: TrueJoinNetworkTime: 4225494.489
+short_britches [[psn]4852422858284497830]	ActorId: 329 InPlayerList: TrueJoinNetworkTime: 4225495.587
+cjooog327 [[psn]7313652334178325163]	ActorId: 378 InPlayerList: TrueJoinNetworkTime: 4226143.625
+migrainzxxl [[steam]76561198246466308]	ActorId: 333 InPlayerList: TrueJoinNetworkTime: 4225493.548
+Seen [[steam]76561199245325604]	ActorId: 334 InPlayerList: TrueJoinNetworkTime: 4225495.005
+Kvola [[xbox]2535434463094933]	ActorId: 335 InPlayerList: TrueJoinNetworkTime: 4225497.345
+cheese gromit [[steam]76561198019273702]	ActorId: 336 InPlayerList: TrueJoinNetworkTime: 4225495.871
+Der_Kaiser [[steam]76561199081279484]	ActorId: 337 InPlayerList: TrueJoinNetworkTime: 4225498.257
+Tomato [[steam]76561198127021747]	ActorId: 339 InPlayerList: TrueJoinNetworkTime: 4225499.076
+EmuKnight [[steam]76561198011264384]	ActorId: 341 InPlayerList: TrueJoinNetworkTime: 4225493.989
+tamdom [[psn]2474809243914978406]	ActorId: 376 InPlayerList: TrueJoinNetworkTime: 4226063.4
+red-whiff [[steam]76561199150820949]	ActorId: 348 InPlayerList: TrueJoinNetworkTime: 4225493.627
+Bad_Goodman [[steam]76561199560336326]	ActorId: 349 InPlayerList: TrueJoinNetworkTime: 4225493.763
+price kleber [[xbox]2535473145171155]	ActorId: 351 InPlayerList: TrueJoinNetworkTime: 4225497.49
+[710] <noparse>cJ [[steam]76561198409597042]	ActorId: 353 InPlayerList: TrueJoinNetworkTime: 4225494.297
+flop_u [[psn]7253882894689736780]	ActorId: 354 InPlayerList: TrueJoinNetworkTime: 4225495.469
+Ernst Junger [[steam]76561198278299242]	ActorId: 355 InPlayerList: TrueJoinNetworkTime: 4225504.558
+Guy [[steam]76561198303403841]	ActorId: 356 InPlayerList: TrueJoinNetworkTime: 4225493.518
+SwiftZenn [[psn]6642511998462851613]	ActorId: 357 InPlayerList: TrueJoinNetworkTime: 4225501.557
+HoboLary [[steam]76561198014841563]	ActorId: 358 InPlayerList: TrueJoinNetworkTime: 4225500.121
+Spooky [[steam]76561199520968134]	ActorId: 359 InPlayerList: TrueJoinNetworkTime: 4225502.722
+Texas German [[steam]76561198800343851]	ActorId: 361 InPlayerList: TrueJoinNetworkTime: 4225532.031
+Isabelle [[steam]76561198264252860]	ActorId: 363 InPlayerList: TrueJoinNetworkTime: 4225512.115
+Jub_ [[steam]76561198397577225]	ActorId: 364 InPlayerList: TrueJoinNetworkTime: 4225524.216
+Stofficus [[steam]76561197972050593]	ActorId: 366 InPlayerList: TrueJoinNetworkTime: 4225548.592
+Swamp Donkey [[steam]76561198192250738]	ActorId: 367 InPlayerList: TrueJoinNetworkTime: 4225548.403
+Murican Eagle [[steam]76561198240714394]	ActorId: 371 InPlayerList: TrueJoinNetworkTime: 4225755.111
+bhardy11 [[steam]76561198754155882]	ActorId: 372 InPlayerList: TrueJoinNetworkTime: 4225805.085
+USBaconator1776 [[xbox]2535423427233370]	ActorId: 377 InPlayerList: TrueJoinNetworkTime: 4226081.035
+Rob [[steam]76561198084723067]	ActorId: 374 InPlayerList: TrueJoinNetworkTime: 4225908.566
+Unity.Collections.Enumerator:MoveNext() (at ./Library/PackageCache/com.unity.collections@010f14fa5e2c/Unity.Collections/NativeParallelMultiHashMap.cs:492)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WW1.<OnMasterClientSwitchedDelayed>d__170:MoveNext() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/managers/GameSetup/GameSetup.cs:3157)
+Photon.Pun.PhotonNetwork:get_OfflineMode() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Plugins/packages/PhotonUnityNetworking/Code/PhotonNetwork.cs:443)
+
+MC setting attacker momentum from 106 to 116
+Unity.Collections.Enumerator:MoveNext() (at ./Library/PackageCache/com.unity.collections@010f14fa5e2c/Unity.Collections/NativeParallelMultiHashMap.cs:492)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WW1.ExpeditionGameMode:RPCSetAttackerMomentum(Int32) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/managers/GameTypes/Expedition/ExpeditionGameMode.cs:460)
+WW1.Networking.GeneratedRPCInvoker:TryInvoke(WW1RPCSystem, IWW1RPCView, UInt32, SenderInfo, SerializationBuffer) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Networking/RPC/GeneratedRPCInvoker.cs:2064)
+WW1.Networking.WW1RPCSystem:ExecuteRPC(SerializationBuffer) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Networking/RPC/WW1RPCSystem.cs:136)
+WW1.Networking.WW1RPCSystem:HandleOnEventReceivedEvent(EventData) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Networking/RPC/WW1RPCSystem.cs:254)
+CodeStage.AntiCheat.Detectors.ACTkDetectorBase`1:set_IsRunning(Boolean) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Plugins/packages/AntiCheatToolkit/Runtime/Scripts/Detectors/Abstract/ACTkDetectorBase.cs:70)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(StreamBuffer)
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+Photon.Pun.PhotonHandler:Dispatch() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Plugins/packages/PhotonUnityNetworking/Code/PhotonHandler.cs:236)
+
+MC setting attacker momentum from 109 to 119
+Unity.Collections.Enumerator:MoveNext() (at ./Library/PackageCache/com.unity.collections@010f14fa5e2c/Unity.Collections/NativeParallelMultiHashMap.cs:492)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+WW1.ExpeditionGameMode:RPCSetAttackerMomentum(Int32) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/managers/GameTypes/Expedition/ExpeditionGameMode.cs:460)
+WW1.Networking.GeneratedRPCInvoker:TryInvoke(WW1RPCSystem, IWW1RPCView, UInt32, SenderInfo, SerializationBuffer) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Networking/RPC/GeneratedRPCInvoker.cs:2064)
+WW1.Networking.WW1RPCSystem:ExecuteRPC(SerializationBuffer) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Networking/RPC/WW1RPCSystem.cs:136)
+WW1.Networking.WW1RPCSystem:HandleOnEventReceivedEvent(EventData) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Scripts/Networking/RPC/WW1RPCSystem.cs:254)
+CodeStage.AntiCheat.Detectors.ACTkDetectorBase`1:set_IsRunning(Boolean) (at F:/WW1Series_Laurens_Staging_Steam/Assets/Plugins/packages/AntiCheatToolkit/Runtime/Scripts/Detectors/Abstract/ACTkDetectorBase.cs:70)
+ExitGames.Client.Photon.PeerBase:DeserializeMessageAndCallback(StreamBuffer)
+ExitGames.Client.Photon.EnetPeer:DispatchIncomingCommands()
+ExitGames.Client.Photon.PhotonPeer:DispatchIncomingCommands()
+Photon.Pun.PhotonHandler:Dispatch() (at F:/WW1Series_Laurens_Staging_Steam/Assets/Plugins/packages/PhotonUnityNetworking/Code/PhotonHandler.cs:236)
+
+Crash!!!
+SymInit: Symbol-SearchPath: '.;C:\Program Files (x86)\Steam\steamapps\common\Gallipoli;C:/Program Files (x86)/Steam/steamapps/common/Gallipoli/Gallipoli/Gallipoli_Data/Plugins\x86_64;C:/Program Files (x86)/Steam/steamapps/common/Gallipoli/Gallipoli/Gallipoli_Data/Plugins;C:\Program Files (x86)\Steam\steamapps\common\Gallipoli\Gallipoli;C:\WINDOWS;C:\WINDOWS\system32;', symOptions: 534, UserName: 'Dracon'
+OS-Version: 10.0.0
+C:\Program Files (x86)\Steam\steamapps\common\Gallipoli\Gallipoli\Gallipoli.exe:Gallipoli.exe (00007FF76F0A0000), size: 684032 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6000.3.2.30623
+C:\WINDOWS\SYSTEM32\ntdll.dll:ntdll.dll (00007FFC3AC50000), size: 2064384 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.6456
+C:\WINDOWS\System32\KERNEL32.DLL:KERNEL32.DLL (00007FFC3A800000), size: 794624 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5915
+C:\WINDOWS\System32\KERNELBASE.dll:KERNELBASE.dll (00007FFC38560000), size: 3104768 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.6280
+C:\Program Files (x86)\Steam\steamapps\common\Gallipoli\Gallipoli\UnityPlayer.dll:UnityPlayer.dll (00007FFBE88E0000), size: 37052416 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6000.3.2.30623
+C:\WINDOWS\System32\USER32.dll:USER32.dll (00007FFC3A5E0000), size: 1708032 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.6456
+C:\WINDOWS\System32\win32u.dll:win32u.dll (00007FFC38B40000), size: 139264 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.6456
+C:\WINDOWS\System32\GDI32.dll:GDI32.dll (00007FFC3A500000), size: 176128 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.6157
+C:\WINDOWS\System32\gdi32full.dll:gdi32full.dll (00007FFC382E0000), size: 1150976 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.6157
+C:\WINDOWS\System32\msvcp_win.dll:msvcp_win.dll (00007FFC38910000), size: 643072 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\System32\ucrtbase.dll:ucrtbase.dll (00007FFC389B0000), size: 1048576 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\System32\ole32.dll:ole32.dll (00007FFC3A000000), size: 1224704 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5915
+C:\WINDOWS\System32\RPCRT4.dll:RPCRT4.dll (00007FFC3AA90000), size: 1179648 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.6280
+C:\WINDOWS\System32\combase.dll:combase.dll (00007FFC391E0000), size: 3489792 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.6456
+C:\WINDOWS\SYSTEM32\VERSION.dll:VERSION.dll (00007FFC31BD0000), size: 40960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\System32\SHLWAPI.dll:SHLWAPI.dll (00007FFC395A0000), size: 372736 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.6392
+C:\WINDOWS\System32\msvcrt.dll:msvcrt.dll (00007FFC3A8D0000), size: 647168 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 7.0.19041.3636
+C:\WINDOWS\System32\SETUPAPI.dll:SETUPAPI.dll (00007FFC38CD0000), size: 4653056 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5794
+C:\WINDOWS\System32\cfgmgr32.dll:cfgmgr32.dll (00007FFC38C20000), size: 319488 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3996
+C:\WINDOWS\System32\bcrypt.dll:bcrypt.dll (00007FFC38860000), size: 159744 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5369
+C:\WINDOWS\System32\ADVAPI32.dll:ADVAPI32.dll (00007FFC3A3C0000), size: 724992 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.6328
+C:\WINDOWS\System32\sechost.dll:sechost.dll (00007FFC39140000), size: 651264 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.6328
+C:\WINDOWS\System32\SHELL32.dll:SHELL32.dll (00007FFC397B0000), size: 7798784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.6456
+C:\WINDOWS\System32\OLEAUT32.dll:OLEAUT32.dll (00007FFC3A260000), size: 839680 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\System32\IMM32.dll:IMM32.dll (00007FFC38C80000), size: 192512 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.6157
+C:\WINDOWS\SYSTEM32\WINMM.dll:WINMM.dll (00007FFC303D0000), size: 159744 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\SYSTEM32\OPENGL32.dll:OPENGL32.dll (00007FFBFB860000), size: 1212416 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5794
+C:\WINDOWS\SYSTEM32\GLU32.dll:GLU32.dll (00007FFC0DF50000), size: 180224 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\System32\CRYPT32.dll:CRYPT32.dll (00007FFC38400000), size: 1429504 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.6157
+C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL:IPHLPAPI.DLL (00007FFC37700000), size: 241664 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\System32\WS2_32.dll:WS2_32.dll (00007FFC3A790000), size: 438272 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\SYSTEM32\HID.DLL:HID.DLL (00007FFC36B00000), size: 53248 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\SYSTEM32\WINHTTP.dll:WINHTTP.dll (00007FFC320F0000), size: 1089536 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5794
+C:\WINDOWS\SYSTEM32\d3d11.dll:d3d11.dll (00007FFC35F10000), size: 2506752 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5794
+C:\WINDOWS\SYSTEM32\dxgi.dll:dxgi.dll (00007FFC36B60000), size: 1007616 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5794
+C:\WINDOWS\SYSTEM32\UIAutomationCore.DLL:UIAutomationCore.DLL (00007FFBF82E0000), size: 3096576 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 7.2.19041.5794
+C:\WINDOWS\SYSTEM32\dwmapi.dll:dwmapi.dll (00007FFC358F0000), size: 188416 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.6157
+C:\WINDOWS\SYSTEM32\PROPSYS.dll:PROPSYS.dll (00007FFC34110000), size: 999424 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 7.0.19041.5794
+C:\Program Files (x86)\Steam\gameoverlayrenderer64.dll:gameoverlayrenderer64.dll (00007FFBED310000), size: 1798144 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.87.82.64
+C:\WINDOWS\System32\PSAPI.DLL:PSAPI.DLL (00007FFC3A130000), size: 32768 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\system32\apphelp.dll:apphelp.dll (00007FFC33EC0000), size: 606208 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.6157
+C:\WINDOWS\SYSTEM32\kernel.appcore.dll:kernel.appcore.dll (00007FFC36B10000), size: 73728 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3758
+C:\WINDOWS\System32\bcryptPrimitives.dll:bcryptPrimitives.dll (00007FFC38AB0000), size: 532480 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5007
+C:\WINDOWS\system32\uxtheme.dll:uxtheme.dll (00007FFC34C50000), size: 647168 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5794
+C:\WINDOWS\System32\shcore.dll:shcore.dll (00007FFC3A1B0000), size: 708608 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5794
+C:\WINDOWS\SYSTEM32\windows.storage.dll:windows.storage.dll (000002110E7D0000), size: 8015872 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.6456
+C:\WINDOWS\SYSTEM32\Wldp.dll:Wldp.dll (00007FFC37D10000), size: 176128 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5794
+C:\WINDOWS\SYSTEM32\profapi.dll:profapi.dll (00007FFC38210000), size: 147456 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.6033
+C:\Program Files (x86)\Steam\steamapps\common\Gallipoli\Gallipoli\GameAssembly.dll:GameAssembly.dll (00007FFB74760000), size: 152526848 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\SYSTEM32\wintypes.dll:wintypes.dll (00007FFC32870000), size: 1404928 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.6456
+C:\WINDOWS\SYSTEM32\dbghelp.dll:dbghelp.dll (00007FFC35D00000), size: 2101248 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5848
+C:\Program Files (x86)\Steam\steamapps\common\Gallipoli\Gallipoli\baselib.dll:baselib.dll (00007FFC060B0000), size: 245760 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\System32\clbcatq.dll:clbcatq.dll (00007FFC3A530000), size: 692224 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2001.12.10941.16384
+C:\Windows\System32\CoreMessaging.dll:CoreMessaging.dll (00007FFC34010000), size: 991232 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5915
+C:\Program Files (x86)\Steam\steamapps\common\Gallipoli\Gallipoli\NVUnityPlugin.DLL:NVUnityPlugin.DLL (00007FFBE8750000), size: 1638400 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\System32\MSCTF.dll:MSCTF.dll (00007FFC3A970000), size: 1134592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5794
+C:\WINDOWS\SYSTEM32\d3d12.dll:d3d12.dll (00007FFC0E610000), size: 151552 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5794
+C:\Program Files (x86)\Steam\steamapps\common\Gallipoli\Gallipoli\D3D12\D3D12Core.dll:D3D12Core.dll (00007FFBE82C0000), size: 4780032 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.618.1.0
+C:\WINDOWS\SYSTEM32\dxcore.dll:dxcore.dll (00007FFC30400000), size: 241664 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5794
+C:\WINDOWS\SYSTEM32\msasn1.dll:msasn1.dll (00007FFC37EA0000), size: 73728 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\SYSTEM32\cryptnet.dll:cryptnet.dll (00007FFC31B40000), size: 200704 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\SYSTEM32\cryptbase.dll:cryptbase.dll (00007FFC37C80000), size: 49152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\SYSTEM32\drvstore.dll:drvstore.dll (00007FFC319F0000), size: 1339392 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5794
+C:\WINDOWS\SYSTEM32\devobj.dll:devobj.dll (00007FFC38070000), size: 208896 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5794
+C:\WINDOWS\System32\wintrust.dll:wintrust.dll (00007FFC38890000), size: 471040 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.6456
+C:\WINDOWS\System32\imagehlp.dll:imagehlp.dll (00007FFC38CB0000), size: 118784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\SYSTEM32\CRYPTSP.dll:CRYPTSP.dll (00007FFC37C60000), size: 98304 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5856
+C:\WINDOWS\system32\rsaenh.dll:rsaenh.dll (00007FFC37320000), size: 229376 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.6093
+C:\WINDOWS\system32\nvspcap64.dll:nvspcap64.dll (00007FFBCA8C0000), size: 1458176 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 11.0.8.299
+C:\WINDOWS\SYSTEM32\ntmarta.dll:ntmarta.dll (00007FFC37570000), size: 208896 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_0373d825005116d0\nvppex.dll:nvppex.dll (00007FFBC9F60000), size: 7499776 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 32.0.16.1088
+C:\WINDOWS\SYSTEM32\D3DSCache.dll:D3DSCache.dll (00007FFC03400000), size: 176128 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5794
+C:\WINDOWS\SYSTEM32\USERENV.dll:USERENV.dll (00007FFC38190000), size: 188416 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5794
+C:\WINDOWS\SYSTEM32\twinapi.appcore.dll:twinapi.appcore.dll (00007FFC30D90000), size: 2109440 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5848
+C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_0373d825005116d0\nvldumdx.dll:nvldumdx.dll (00007FFC2D8D0000), size: 827392 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 32.0.16.1088
+C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_0373d825005116d0\nvgpucomp64.dll:nvgpucomp64.dll (00007FFC274B0000), size: 98623488 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 32.0.16.1088
+C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_0373d825005116d0\NvMemMapStoragex.dll:NvMemMapStoragex.dll (00007FFC26E30000), size: 1290240 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\SYSTEM32\POWRPROF.dll:POWRPROF.dll (00007FFC37820000), size: 307200 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\SYSTEM32\UMPDC.dll:UMPDC.dll (00007FFC376E0000), size: 73728 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_0373d825005116d0\nvwgf2umx.dll:nvwgf2umx.dll (00007FFC211A0000), size: 89804800 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 32.0.16.1088
+C:\WINDOWS\SYSTEM32\gpapi.dll:gpapi.dll (00007FFC36B30000), size: 143360 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4355
+C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_0373d825005116d0\_nvngx.dll:_nvngx.dll (00007FFBEC400000), size: 1519616 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 32.0.16.1088
+C:\WINDOWS\SYSTEM32\nvapi64.dll:nvapi64.dll (00007FFC2D840000), size: 561152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 32.0.16.1088
+C:\WINDOWS\system32\DriverStore\FileRepository\nv_dispi.inf_amd64_0373d825005116d0\nvapi64_impl.dll:nvapi64_impl.dll (00007FFC2D2C0000), size: 5730304 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 32.0.16.1088
+C:\Program Files (x86)\Steam\steamapps\common\Gallipoli\Gallipoli\nvngx_dlss.dll:nvngx_dlss.dll (00007FFBD2790000), size: 49156096 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 310.3.0.0
+C:\Program Files\NVIDIA Corporation\NvTelemetry\NvTelemetryAPI64.dll:NvTelemetryAPI64.dll (00007FFC11680000), size: 4894720 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 19.6.6.0
+C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_0373d825005116d0\nvcuda64.dll:nvcuda64.dll (00007FFBD08B0000), size: 32370688 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 32.0.16.1088
+C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_0373d825005116d0\nvdxgdmal64.dll:nvdxgdmal64.dll (00007FFBED260000), size: 716800 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_0373d825005116d0\nvobjectloader64.dll:nvobjectloader64.dll (00007FFBE74B0000), size: 14688256 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Program Files\NVIDIA Corporation\NvTelemetry\NvTelemetryBridge64.dll:NvTelemetryBridge64.dll (00007FFC0D8A0000), size: 438272 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 19.6.6.0
+C:\WINDOWS\SYSTEM32\xinput1_3.dll:xinput1_3.dll (00007FFC02830000), size: 196608 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26200.1
+C:\WINDOWS\SYSTEM32\dcomp.dll:dcomp.dll (00007FFC32F00000), size: 1982464 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.6157
+C:\WINDOWS\SYSTEM32\textinputframework.dll:textinputframework.dll (00007FFC1FC40000), size: 1019904 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.6456
+C:\WINDOWS\SYSTEM32\CoreUIComponents.dll:CoreUIComponents.dll (00007FFC33630000), size: 3518464 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\system32\Oleacc.dll:Oleacc.dll (00007FFC1E9E0000), size: 417792 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 7.2.19041.3636
+C:\Program Files (x86)\Steam\steamapps\common\Gallipoli\Gallipoli\Gallipoli_Data\Plugins\x86_64\lib_burst_generated.dll:lib_burst_generated.dll (00007FFBD0190000), size: 7438336 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Program Files (x86)\Steam\steamapps\common\Gallipoli\Gallipoli\Gallipoli_Data\Plugins\x86_64\fmodstudio.dll:fmodstudio.dll (00007FFBCFE20000), size: 3543040 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 0.2.3.7
+C:\WINDOWS\System32\MMDevApi.dll:MMDevApi.dll (00007FFC33C60000), size: 544768 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5915
+C:\WINDOWS\SYSTEM32\AUDIOSES.DLL:AUDIOSES.DLL (00007FFC33D10000), size: 1576960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5794
+C:\WINDOWS\SYSTEM32\resourcepolicyclient.dll:resourcepolicyclient.dll (00007FFC34F60000), size: 81920 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4355
+C:\Windows\System32\Windows.UI.dll:Windows.UI.dll (00007FFC1FD40000), size: 1306624 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5794
+C:\Windows\System32\WindowManagementAPI.dll:WindowManagementAPI.dll (00007FFC30FD0000), size: 659456 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Windows\System32\InputHost.dll:InputHost.dll (00007FFC1FAE0000), size: 1384448 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5794
+C:\Program Files (x86)\Steam\steamapps\common\Gallipoli\Gallipoli\Gallipoli_Data\Plugins\x86_64\steam_api64.dll:steam_api64.dll (00007FFC00D00000), size: 327680 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 9.31.86.4
+C:\Program Files (x86)\Steam\steamclient64.dll:steamclient64.dll (00007FFBB1AE0000), size: 26624000 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.87.82.64
+C:\Program Files (x86)\Steam\vstdlib_s64.dll:vstdlib_s64.dll (00007FFBDD8E0000), size: 798720 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.87.82.64
+C:\Program Files (x86)\Steam\tier0_s64.dll:tier0_s64.dll (00007FFBC4F80000), size: 3203072 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.87.82.64
+C:\WINDOWS\SYSTEM32\Secur32.dll:Secur32.dll (00007FFC16550000), size: 49152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\SYSTEM32\MSWSOCK.dll:MSWSOCK.dll (00007FFC37A70000), size: 434176 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5915
+C:\WINDOWS\SYSTEM32\SSPICLI.DLL:SSPICLI.DLL (00007FFC381C0000), size: 204800 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.6328
+C:\Program Files (x86)\Steam\steamapps\common\Gallipoli\Gallipoli\Gallipoli_Data\Plugins\x86_64\EOSSDK-Win64-Shipping.dll:EOSSDK-Win64-Shipping.dll (00007FFB852E0000), size: 20250624 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.19.1.2
+C:\WINDOWS\SYSTEM32\MSVCP140.dll:MSVCP140.dll (00007FFC1ED20000), size: 643072 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 14.51.36247.0
+C:\WINDOWS\SYSTEM32\VCRUNTIME140.dll:VCRUNTIME140.dll (00007FFC1ECF0000), size: 180224 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 14.51.36247.0
+C:\WINDOWS\SYSTEM32\VCRUNTIME140_1.dll:VCRUNTIME140_1.dll (00007FFC1EDD0000), size: 49152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 14.51.36247.0
+C:\WINDOWS\System32\NSI.dll:NSI.dll (00007FFC38C70000), size: 32768 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\SYSTEM32\dhcpcsvc6.DLL:dhcpcsvc6.DLL (00007FFC33CF0000), size: 94208 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\SYSTEM32\dhcpcsvc.DLL:dhcpcsvc.DLL (00007FFC33F90000), size: 118784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\system32\napinsp.dll:napinsp.dll (00007FFC0CB50000), size: 94208 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\system32\pnrpnsp.dll:pnrpnsp.dll (00007FFC0CB70000), size: 110592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\system32\wshbth.dll:wshbth.dll (00007FFC0CB90000), size: 118784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5848
+C:\WINDOWS\system32\NLAapi.dll:NLAapi.dll (00007FFC32E50000), size: 118784 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.6456
+C:\WINDOWS\SYSTEM32\DNSAPI.dll:DNSAPI.dll (00007FFC37740000), size: 827392 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5369
+C:\WINDOWS\System32\winrnr.dll:winrnr.dll (00007FFC0D910000), size: 73728 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Windows\System32\rasadhlp.dll:rasadhlp.dll (00007FFC206D0000), size: 40960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.6328
+C:\WINDOWS\System32\fwpuclnt.dll:fwpuclnt.dll (00007FFC200C0000), size: 524288 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.6328
+C:\WINDOWS\system32\schannel.DLL:schannel.DLL (00007FFC37230000), size: 618496 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.6328
+C:\WINDOWS\system32\wbem\wbemprox.dll:wbemprox.dll (00007FFC180B0000), size: 69632 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4474
+C:\WINDOWS\SYSTEM32\wbemcomn.dll:wbemcomn.dll (00007FFC1DBB0000), size: 589824 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5794
+C:\WINDOWS\system32\wbem\wbemsvc.dll:wbemsvc.dll (00007FFC12C50000), size: 81920 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4474
+C:\WINDOWS\system32\wbem\fastprox.dll:fastprox.dll (00007FFC11F50000), size: 1097728 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5794
+C:\WINDOWS\SYSTEM32\amsi.dll:amsi.dll (00007FFC10050000), size: 126976 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4355
+C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.26070.9-0\MpOav.dll:MpOav.dll (00007FFC0FD90000), size: 667648 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 4.18.26070.9
+C:\WINDOWS\SYSTEM32\xinput1_4.DLL:xinput1_4.DLL (00007FFBF1C20000), size: 69632 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\SYSTEM32\bthprops.cpl:bthprops.cpl (00007FFC1EEA0000), size: 286720 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5794
+C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.6456_none_60b8a6cb71f64256\comctl32.dll:comctl32.dll (00007FFC1D020000), size: 2732032 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.10.19041.6456
+C:\WINDOWS\SYSTEM32\mskeyprotect.dll:mskeyprotect.dll (00007FFC077B0000), size: 86016 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\SYSTEM32\NTASN1.dll:NTASN1.dll (00007FFC37D40000), size: 241664 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\WINDOWS\SYSTEM32\ncrypt.dll:ncrypt.dll (00007FFC37D80000), size: 159744 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5007
+C:\WINDOWS\system32\ncryptsslp.dll:ncryptsslp.dll (00007FFC07860000), size: 155648 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Program Files (x86)\Steam\steamapps\common\Gallipoli\Gallipoli\Gallipoli_Data\Plugins\x86_64\PartyWin32.dll:PartyWin32.dll (00007FFB8C100000), size: 3854336 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.9.2403.7003
+C:\Windows\System32\SystemSettings.DataModel.dll:SystemSettings.DataModel.dll (00007FFC1B8F0000), size: 495616 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.6396
+C:\Windows\System32\Windows.Media.Devices.dll:Windows.Media.Devices.dll (00007FFC20EB0000), size: 602112 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5794
+C:\WINDOWS\SYSTEM32\WINNSI.DLL:WINNSI.DLL (00007FFC33F60000), size: 45056 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Windows\System32\Windows.Devices.Enumeration.dll:Windows.Devices.Enumeration.dll (00007FFC03B40000), size: 552960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.5848
+C:\WINDOWS\SYSTEM32\webio.dll:webio.dll (00007FFC20510000), size: 626688 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.6033
+C:\Windows\System32\CapabilityAccessManagerClient.dll:CapabilityAccessManagerClient.dll (00007FFC206E0000), size: 270336 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.6093
+C:\WINDOWS\SYSTEM32\DPAPI.dll:DPAPI.dll (00007FFC380D0000), size: 40960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Program Files (x86)\Steam\steamapps\common\Gallipoli\Gallipoli\Gallipoli_Data\Plugins\x86_64\discord-rpc.dll:discord-rpc.dll (00007FFBE7290000), size: 638976 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\SYSTEM32\XAudio2_9.dll:XAudio2_9.dll (00007FFBA2180000), size: 663552 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.4355
+C:\WINDOWS\SYSTEM32\AVRT.dll:AVRT.dll (00007FFC36180000), size: 40960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.3636
+C:\Program Files (x86)\Steam\steamapps\common\Gallipoli\Gallipoli\Gallipoli_Data\Plugins\x86_64\M2HDetect.dll:M2HDetect.dll (00007FFC33230000), size: 40960 (result: 0), SymType: '-deferred-', PDB: ''
+C:\WINDOWS\system32\ncryptprov.dll:ncryptprov.dll (00007FFC07800000), size: 376832 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19041.6456
+
+========== OUTPUTTING STACK TRACE ==================
+
+0x00007FFBD02FA380 (lib_burst_generated) burst.initialize.statics.43818c1b0c11124717e9257b630efd6f_avx2
+0x00007FFBD02FA166 (lib_burst_generated) burst.initialize.statics.603af234cdaa7e424fe0e4a85612a709_avx2
+0x00007FFBD07BF117 (lib_burst_generated) 43818c1b0c11124717e9257b630efd6f
+SymInit: Symbol-SearchPath: '.;C:\Program Files (x86)\Steam\steamapps\common\Gallipoli;C:/Program Files (x86)/Steam/steamapps/common/Gallipoli/Gallipoli/Gallipoli_Data/Plugins\x86_64;C:/Program Files (x86)/Steam/steamapps/common/Gallipoli/Gallipoli/Gallipoli_Data/Plugins;C:\Program Files (x86)\Steam\steamapps\common\Gallipoli\Gallipoli;C:\WINDOWS;C:\WINDOWS\system32;', symOptions: 534, UserName: 'Dracon'
+OS-Version: 10.0.0
+C:\Program Files (x86)\Steam\steamapps\common\Gallipoli\Gallipoli\Gallipoli.exe:Gallipoli.exe (00007FF76F0A0000), size: 684032 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files (x86)\Steam\steamapps\common\Gallipoli\Gallipoli\Gallipoli.exe', fileVersion: 6000.3.2.30623
+C:\WINDOWS\SYSTEM32\ntdll.dll:ntdll.dll (00007FFC3AC50000), size: 2064384 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\ntdll.dll', fileVersion: 10.0.19041.6456
+C:\WINDOWS\System32\KERNEL32.DLL:KERNEL32.DLL (00007FFC3A800000), size: 794624 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\KERNEL32.DLL', fileVersion: 10.0.19041.5915
+C:\WINDOWS\System32\KERNELBASE.dll:KERNELBASE.dll (00007FFC38560000), size: 3104768 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\KERNELBASE.dll', fileVersion: 10.0.19041.6280
+C:\Program Files (x86)\Steam\steamapps\common\Gallipoli\Gallipoli\UnityPlayer.dll:UnityPlayer.dll (00007FFBE88E0000), size: 37052416 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files (x86)\Steam\steamapps\common\Gallipoli\Gallipoli\UnityPlayer.dll', fileVersion: 6000.3.2.30623
+C:\WINDOWS\System32\USER32.dll:USER32.dll (00007FFC3A5E0000), size: 1708032 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\USER32.dll', fileVersion: 10.0.19041.6456
+C:\WINDOWS\System32\win32u.dll:win32u.dll (00007FFC38B40000), size: 139264 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\win32u.dll', fileVersion: 10.0.19041.6456
+C:\WINDOWS\System32\GDI32.dll:GDI32.dll (00007FFC3A500000), size: 176128 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\GDI32.dll', fileVersion: 10.0.19041.6157
+C:\WINDOWS\System32\gdi32full.dll:gdi32full.dll (00007FFC382E0000), size: 1150976 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\gdi32full.dll', fileVersion: 10.0.19041.6157
+C:\WINDOWS\System32\msvcp_win.dll:msvcp_win.dll (00007FFC38910000), size: 643072 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\msvcp_win.dll', fileVersion: 10.0.19041.3636
+C:\WINDOWS\System32\ucrtbase.dll:ucrtbase.dll (00007FFC389B0000), size: 1048576 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\ucrtbase.dll', fileVersion: 10.0.19041.3636
+C:\WINDOWS\System32\ole32.dll:ole32.dll (00007FFC3A000000), size: 1224704 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\ole32.dll', fileVersion: 10.0.19041.5915
+C:\WINDOWS\System32\RPCRT4.dll:RPCRT4.dll (00007FFC3AA90000), size: 1179648 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\RPCRT4.dll', fileVersion: 10.0.19041.6280
+C:\WINDOWS\System32\combase.dll:combase.dll (00007FFC391E0000), size: 3489792 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\combase.dll', fileVersion: 10.0.19041.6456
+C:\WINDOWS\SYSTEM32\VERSION.dll:VERSION.dll (00007FFC31BD0000), size: 40960 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\VERSION.dll', fileVersion: 10.0.19041.3636
+C:\WINDOWS\System32\SHLWAPI.dll:SHLWAPI.dll (00007FFC395A0000), size: 372736 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\SHLWAPI.dll', fileVersion: 10.0.19041.6392
+C:\WINDOWS\System32\msvcrt.dll:msvcrt.dll (00007FFC3A8D0000), size: 647168 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\msvcrt.dll', fileVersion: 7.0.19041.3636
+C:\WINDOWS\System32\SETUPAPI.dll:SETUPAPI.dll (00007FFC38CD0000), size: 4653056 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\SETUPAPI.dll', fileVersion: 10.0.19041.5794
+C:\WINDOWS\System32\cfgmgr32.dll:cfgmgr32.dll (00007FFC38C20000), size: 319488 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\cfgmgr32.dll', fileVersion: 10.0.19041.3996
+C:\WINDOWS\System32\bcrypt.dll:bcrypt.dll (00007FFC38860000), size: 159744 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\bcrypt.dll', fileVersion: 10.0.19041.5369
+C:\WINDOWS\System32\ADVAPI32.dll:ADVAPI32.dll (00007FFC3A3C0000), size: 724992 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\ADVAPI32.dll', fileVersion: 10.0.19041.6328
+C:\WINDOWS\System32\sechost.dll:sechost.dll (00007FFC39140000), size: 651264 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\sechost.dll', fileVersion: 10.0.19041.6328
+C:\WINDOWS\System32\SHELL32.dll:SHELL32.dll (00007FFC397B0000), size: 7798784 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\SHELL32.dll', fileVersion: 10.0.19041.6456
+C:\WINDOWS\System32\OLEAUT32.dll:OLEAUT32.dll (00007FFC3A260000), size: 839680 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\OLEAUT32.dll', fileVersion: 10.0.19041.3636
+C:\WINDOWS\System32\IMM32.dll:IMM32.dll (00007FFC38C80000), size: 192512 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\IMM32.dll', fileVersion: 10.0.19041.6157
+C:\WINDOWS\SYSTEM32\WINMM.dll:WINMM.dll (00007FFC303D0000), size: 159744 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\WINMM.dll', fileVersion: 10.0.19041.3636
+C:\WINDOWS\SYSTEM32\OPENGL32.dll:OPENGL32.dll (00007FFBFB860000), size: 1212416 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\OPENGL32.dll', fileVersion: 10.0.19041.5794
+C:\WINDOWS\SYSTEM32\GLU32.dll:GLU32.dll (00007FFC0DF50000), size: 180224 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\GLU32.dll', fileVersion: 10.0.19041.3636
+C:\WINDOWS\System32\CRYPT32.dll:CRYPT32.dll (00007FFC38400000), size: 1429504 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\CRYPT32.dll', fileVersion: 10.0.19041.6157
+C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL:IPHLPAPI.DLL (00007FFC37700000), size: 241664 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL', fileVersion: 10.0.19041.3636
+C:\WINDOWS\System32\WS2_32.dll:WS2_32.dll (00007FFC3A790000), size: 438272 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\WS2_32.dll', fileVersion: 10.0.19041.3636
+C:\WINDOWS\SYSTEM32\HID.DLL:HID.DLL (00007FFC36B00000), size: 53248 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\HID.DLL', fileVersion: 10.0.19041.3636
+C:\WINDOWS\SYSTEM32\WINHTTP.dll:WINHTTP.dll (00007FFC320F0000), size: 1089536 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\WINHTTP.dll', fileVersion: 10.0.19041.5794
+C:\WINDOWS\SYSTEM32\d3d11.dll:d3d11.dll (00007FFC35F10000), size: 2506752 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\d3d11.dll', fileVersion: 10.0.19041.5794
+C:\WINDOWS\SYSTEM32\dxgi.dll:dxgi.dll (00007FFC36B60000), size: 1007616 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\dxgi.dll', fileVersion: 10.0.19041.5794
+C:\WINDOWS\SYSTEM32\UIAutomationCore.DLL:UIAutomationCore.DLL (00007FFBF82E0000), size: 3096576 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\UIAutomationCore.DLL', fileVersion: 7.2.19041.5794
+C:\WINDOWS\SYSTEM32\dwmapi.dll:dwmapi.dll (00007FFC358F0000), size: 188416 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\dwmapi.dll', fileVersion: 10.0.19041.6157
+C:\WINDOWS\SYSTEM32\PROPSYS.dll:PROPSYS.dll (00007FFC34110000), size: 999424 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\PROPSYS.dll', fileVersion: 7.0.19041.5794
+C:\Program Files (x86)\Steam\gameoverlayrenderer64.dll:gameoverlayrenderer64.dll (00007FFBED310000), size: 1798144 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files (x86)\Steam\gameoverlayrenderer64.dll', fileVersion: 10.87.82.64
+C:\WINDOWS\System32\PSAPI.DLL:PSAPI.DLL (00007FFC3A130000), size: 32768 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\PSAPI.DLL', fileVersion: 10.0.19041.3636
+C:\WINDOWS\system32\apphelp.dll:apphelp.dll (00007FFC33EC0000), size: 606208 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\system32\apphelp.dll', fileVersion: 10.0.19041.6157
+C:\WINDOWS\SYSTEM32\kernel.appcore.dll:kernel.appcore.dll (00007FFC36B10000), size: 73728 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\kernel.appcore.dll', fileVersion: 10.0.19041.3758
+C:\WINDOWS\System32\bcryptPrimitives.dll:bcryptPrimitives.dll (00007FFC38AB0000), size: 532480 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\bcryptPrimitives.dll', fileVersion: 10.0.19041.5007
+C:\WINDOWS\system32\uxtheme.dll:uxtheme.dll (00007FFC34C50000), size: 647168 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\system32\uxtheme.dll', fileVersion: 10.0.19041.5794
+C:\WINDOWS\System32\shcore.dll:shcore.dll (00007FFC3A1B0000), size: 708608 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\shcore.dll', fileVersion: 10.0.19041.5794
+C:\WINDOWS\SYSTEM32\windows.storage.dll:windows.storage.dll (000002110E7D0000), size: 8015872 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\windows.storage.dll', fileVersion: 10.0.19041.6456
+C:\WINDOWS\SYSTEM32\Wldp.dll:Wldp.dll (00007FFC37D10000), size: 176128 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\Wldp.dll', fileVersion: 10.0.19041.5794
+C:\WINDOWS\SYSTEM32\profapi.dll:profapi.dll (00007FFC38210000), size: 147456 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\SYSTEM32\profapi.dll', fileVersion: 10.0.19041.6033
+C:\Program Files (x86)\Steam\steamapps\common\Gallipoli\Gallipoli\GameAssembly.dll:GameAssembly.dll (00007FFB74760000), size: 152526848 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files (x86)\Steam\steamapps\common\Gallipoli\Gallipoli\GameAssembly.dll'
+C:\WINDOWS\SYSTEM32\wintypes.dll:wintypes.dll (00007FFC32870000), size: 1404928 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\wintypes.dll', fileVersion: 10.0.19041.6456
+C:\WINDOWS\SYSTEM32\dbghelp.dll:dbghelp.dll (00007FFC35D00000), size: 2101248 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\dbghelp.dll', fileVersion: 10.0.19041.5848
+C:\Program Files (x86)\Steam\steamapps\common\Gallipoli\Gallipoli\baselib.dll:baselib.dll (00007FFC060B0000), size: 245760 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files (x86)\Steam\steamapps\common\Gallipoli\Gallipoli\baselib.dll'
+C:\WINDOWS\System32\clbcatq.dll:clbcatq.dll (00007FFC3A530000), size: 692224 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\clbcatq.dll', fileVersion: 2001.12.10941.16384
+C:\Windows\System32\CoreMessaging.dll:CoreMessaging.dll (00007FFC34010000), size: 991232 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\CoreMessaging.dll', fileVersion: 10.0.19041.5915
+C:\Program Files (x86)\Steam\steamapps\common\Gallipoli\Gallipoli\NVUnityPlugin.DLL:NVUnityPlugin.DLL (00007FFBE8750000), size: 1638400 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files (x86)\Steam\steamapps\common\Gallipoli\Gallipoli\NVUnityPlugin.DLL'
+C:\WINDOWS\System32\MSCTF.dll:MSCTF.dll (00007FFC3A970000), size: 1134592 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\MSCTF.dll', fileVersion: 10.0.19041.5794
+C:\WINDOWS\SYSTEM32\d3d12.dll:d3d12.dll (00007FFC0E610000), size: 151552 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\d3d12.dll', fileVersion: 10.0.19041.5794
+C:\Program Files (x86)\Steam\steamapps\common\Gallipoli\Gallipoli\D3D12\D3D12Core.dll:D3D12Core.dll (00007FFBE82C0000), size: 4780032 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files (x86)\Steam\steamapps\common\Gallipoli\Gallipoli\D3D12\D3D12Core.dll', fileVersion: 1.618.1.0
+C:\WINDOWS\SYSTEM32\dxcore.dll:dxcore.dll (00007FFC30400000), size: 241664 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\dxcore.dll', fileVersion: 10.0.19041.5794
+C:\WINDOWS\SYSTEM32\msasn1.dll:msasn1.dll (00007FFC37EA0000), size: 73728 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\msasn1.dll', fileVersion: 10.0.19041.3636
+C:\WINDOWS\SYSTEM32\cryptnet.dll:cryptnet.dll (00007FFC31B40000), size: 200704 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\cryptnet.dll', fileVersion: 10.0.19041.3636
+C:\WINDOWS\SYSTEM32\cryptbase.dll:cryptbase.dll (00007FFC37C80000), size: 49152 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\cryptbase.dll', fileVersion: 10.0.19041.3636
+C:\WINDOWS\SYSTEM32\drvstore.dll:drvstore.dll (00007FFC319F0000), size: 1339392 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\drvstore.dll', fileVersion: 10.0.19041.5794
+C:\WINDOWS\SYSTEM32\devobj.dll:devobj.dll (00007FFC38070000), size: 208896 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\devobj.dll', fileVersion: 10.0.19041.5794
+C:\WINDOWS\System32\wintrust.dll:wintrust.dll (00007FFC38890000), size: 471040 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\wintrust.dll', fileVersion: 10.0.19041.6456
+C:\WINDOWS\System32\imagehlp.dll:imagehlp.dll (00007FFC38CB0000), size: 118784 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\imagehlp.dll', fileVersion: 10.0.19041.3636
+C:\WINDOWS\SYSTEM32\CRYPTSP.dll:CRYPTSP.dll (00007FFC37C60000), size: 98304 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\CRYPTSP.dll', fileVersion: 10.0.19041.5856
+C:\WINDOWS\system32\rsaenh.dll:rsaenh.dll (00007FFC37320000), size: 229376 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\system32\rsaenh.dll', fileVersion: 10.0.19041.6093
+C:\WINDOWS\system32\nvspcap64.dll:nvspcap64.dll (00007FFBCA8C0000), size: 1458176 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\system32\nvspcap64.dll', fileVersion: 11.0.8.299
+C:\WINDOWS\SYSTEM32\ntmarta.dll:ntmarta.dll (00007FFC37570000), size: 208896 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\ntmarta.dll', fileVersion: 10.0.19041.3636
+C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_0373d825005116d0\nvppex.dll:nvppex.dll (00007FFBC9F60000), size: 7499776 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_0373d825005116d0\nvppex.dll', fileVersion: 32.0.16.1088
+C:\WINDOWS\SYSTEM32\D3DSCache.dll:D3DSCache.dll (00007FFC03400000), size: 176128 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\D3DSCache.dll', fileVersion: 10.0.19041.5794
+C:\WINDOWS\SYSTEM32\USERENV.dll:USERENV.dll (00007FFC38190000), size: 188416 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\USERENV.dll', fileVersion: 10.0.19041.5794
+C:\WINDOWS\SYSTEM32\twinapi.appcore.dll:twinapi.appcore.dll (00007FFC30D90000), size: 2109440 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\twinapi.appcore.dll', fileVersion: 10.0.19041.5848
+C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_0373d825005116d0\nvldumdx.dll:nvldumdx.dll (00007FFC2D8D0000), size: 827392 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_0373d825005116d0\nvldumdx.dll', fileVersion: 32.0.16.1088
+C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_0373d825005116d0\nvgpucomp64.dll:nvgpucomp64.dll (00007FFC274B0000), size: 98623488 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_0373d825005116d0\nvgpucomp64.dll', fileVersion: 32.0.16.1088
+C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_0373d825005116d0\NvMemMapStoragex.dll:NvMemMapStoragex.dll (00007FFC26E30000), size: 1290240 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_0373d825005116d0\NvMemMapStoragex.dll'
+C:\WINDOWS\SYSTEM32\POWRPROF.dll:POWRPROF.dll (00007FFC37820000), size: 307200 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\POWRPROF.dll', fileVersion: 10.0.19041.3636
+C:\WINDOWS\SYSTEM32\UMPDC.dll:UMPDC.dll (00007FFC376E0000), size: 73728 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\UMPDC.dll'
+C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_0373d825005116d0\nvwgf2umx.dll:nvwgf2umx.dll (00007FFC211A0000), size: 89804800 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_0373d825005116d0\nvwgf2umx.dll', fileVersion: 32.0.16.1088
+C:\WINDOWS\SYSTEM32\gpapi.dll:gpapi.dll (00007FFC36B30000), size: 143360 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\gpapi.dll', fileVersion: 10.0.19041.4355
+C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_0373d825005116d0\_nvngx.dll:_nvngx.dll (00007FFBEC400000), size: 1519616 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_0373d825005116d0\_nvngx.dll', fileVersion: 32.0.16.1088
+C:\WINDOWS\SYSTEM32\nvapi64.dll:nvapi64.dll (00007FFC2D840000), size: 561152 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\nvapi64.dll', fileVersion: 32.0.16.1088
+C:\WINDOWS\system32\DriverStore\FileRepository\nv_dispi.inf_amd64_0373d825005116d0\nvapi64_impl.dll:nvapi64_impl.dll (00007FFC2D2C0000), size: 5730304 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\system32\DriverStore\FileRepository\nv_dispi.inf_amd64_0373d825005116d0\nvapi64_impl.dll', fileVersion: 32.0.16.1088
+C:\Program Files (x86)\Steam\steamapps\common\Gallipoli\Gallipoli\nvngx_dlss.dll:nvngx_dlss.dll (00007FFBD2790000), size: 49156096 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files (x86)\Steam\steamapps\common\Gallipoli\Gallipoli\nvngx_dlss.dll', fileVersion: 310.3.0.0
+C:\Program Files\NVIDIA Corporation\NvTelemetry\NvTelemetryAPI64.dll:NvTelemetryAPI64.dll (00007FFC11680000), size: 4894720 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files\NVIDIA Corporation\NvTelemetry\NvTelemetryAPI64.dll', fileVersion: 19.6.6.0
+C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_0373d825005116d0\nvcuda64.dll:nvcuda64.dll (00007FFBD08B0000), size: 32370688 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_0373d825005116d0\nvcuda64.dll', fileVersion: 32.0.16.1088
+C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_0373d825005116d0\nvdxgdmal64.dll:nvdxgdmal64.dll (00007FFBED260000), size: 716800 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_0373d825005116d0\nvdxgdmal64.dll'
+C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_0373d825005116d0\nvobjectloader64.dll:nvobjectloader64.dll (00007FFBE74B0000), size: 14688256 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_0373d825005116d0\nvobjectloader64.dll'
+C:\Program Files\NVIDIA Corporation\NvTelemetry\NvTelemetryBridge64.dll:NvTelemetryBridge64.dll (00007FFC0D8A0000), size: 438272 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files\NVIDIA Corporation\NvTelemetry\NvTelemetryBridge64.dll', fileVersion: 19.6.6.0
+C:\WINDOWS\SYSTEM32\xinput1_3.dll:xinput1_3.dll (00007FFC02830000), size: 196608 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\xinput1_3.dll', fileVersion: 10.0.26200.1
+C:\WINDOWS\SYSTEM32\dcomp.dll:dcomp.dll (00007FFC32F00000), size: 1982464 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\dcomp.dll', fileVersion: 10.0.19041.6157
+C:\WINDOWS\SYSTEM32\textinputframework.dll:textinputframework.dll (00007FFC1FC40000), size: 1019904 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\textinputframework.dll', fileVersion: 10.0.19041.6456
+C:\WINDOWS\SYSTEM32\CoreUIComponents.dll:CoreUIComponents.dll (00007FFC33630000), size: 3518464 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\CoreUIComponents.dll', fileVersion: 10.0.19041.3636
+C:\WINDOWS\system32\Oleacc.dll:Oleacc.dll (00007FFC1E9E0000), size: 417792 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\system32\Oleacc.dll', fileVersion: 7.2.19041.3636
+C:\Program Files (x86)\Steam\steamapps\common\Gallipoli\Gallipoli\Gallipoli_Data\Plugins\x86_64\lib_burst_generated.dll:lib_burst_generated.dll (00007FFBD0190000), size: 7438336 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files (x86)\Steam\steamapps\common\Gallipoli\Gallipoli\Gallipoli_Data\Plugins\x86_64\lib_burst_generated.dll'
+C:\Program Files (x86)\Steam\steamapps\common\Gallipoli\Gallipoli\Gallipoli_Data\Plugins\x86_64\fmodstudio.dll:fmodstudio.dll (00007FFBCFE20000), size: 3543040 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files (x86)\Steam\steamapps\common\Gallipoli\Gallipoli\Gallipoli_Data\Plugins\x86_64\fmodstudio.dll', fileVersion: 0.2.3.7
+C:\WINDOWS\System32\MMDevApi.dll:MMDevApi.dll (00007FFC33C60000), size: 544768 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\MMDevApi.dll', fileVersion: 10.0.19041.5915
+C:\WINDOWS\SYSTEM32\AUDIOSES.DLL:AUDIOSES.DLL (00007FFC33D10000), size: 1576960 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\AUDIOSES.DLL', fileVersion: 10.0.19041.5794
+C:\WINDOWS\SYSTEM32\resourcepolicyclient.dll:resourcepolicyclient.dll (00007FFC34F60000), size: 81920 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\resourcepolicyclient.dll', fileVersion: 10.0.19041.4355
+C:\Windows\System32\Windows.UI.dll:Windows.UI.dll (00007FFC1FD40000), size: 1306624 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\Windows.UI.dll', fileVersion: 10.0.19041.5794
+C:\Windows\System32\WindowManagementAPI.dll:WindowManagementAPI.dll (00007FFC30FD0000), size: 659456 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\WindowManagementAPI.dll'
+C:\Windows\System32\InputHost.dll:InputHost.dll (00007FFC1FAE0000), size: 1384448 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\InputHost.dll', fileVersion: 10.0.19041.5794
+C:\Program Files (x86)\Steam\steamapps\common\Gallipoli\Gallipoli\Gallipoli_Data\Plugins\x86_64\steam_api64.dll:steam_api64.dll (00007FFC00D00000), size: 327680 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files (x86)\Steam\steamapps\common\Gallipoli\Gallipoli\Gallipoli_Data\Plugins\x86_64\steam_api64.dll', fileVersion: 9.31.86.4
+C:\Program Files (x86)\Steam\steamclient64.dll:steamclient64.dll (00007FFBB1AE0000), size: 26624000 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files (x86)\Steam\steamclient64.dll', fileVersion: 10.87.82.64
+C:\Program Files (x86)\Steam\vstdlib_s64.dll:vstdlib_s64.dll (00007FFBDD8E0000), size: 798720 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files (x86)\Steam\vstdlib_s64.dll', fileVersion: 10.87.82.64
+C:\Program Files (x86)\Steam\tier0_s64.dll:tier0_s64.dll (00007FFBC4F80000), size: 3203072 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files (x86)\Steam\tier0_s64.dll', fileVersion: 10.87.82.64
+C:\WINDOWS\SYSTEM32\Secur32.dll:Secur32.dll (00007FFC16550000), size: 49152 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\Secur32.dll', fileVersion: 10.0.19041.3636
+C:\WINDOWS\SYSTEM32\MSWSOCK.dll:MSWSOCK.dll (00007FFC37A70000), size: 434176 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\MSWSOCK.dll', fileVersion: 10.0.19041.5915
+C:\WINDOWS\SYSTEM32\SSPICLI.DLL:SSPICLI.DLL (00007FFC381C0000), size: 204800 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\SSPICLI.DLL', fileVersion: 10.0.19041.6328
+C:\Program Files (x86)\Steam\steamapps\common\Gallipoli\Gallipoli\Gallipoli_Data\Plugins\x86_64\EOSSDK-Win64-Shipping.dll:EOSSDK-Win64-Shipping.dll (00007FFB852E0000), size: 20250624 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files (x86)\Steam\steamapps\common\Gallipoli\Gallipoli\Gallipoli_Data\Plugins\x86_64\EOSSDK-Win64-Shipping.dll', fileVersion: 1.19.1.2
+C:\WINDOWS\SYSTEM32\MSVCP140.dll:MSVCP140.dll (00007FFC1ED20000), size: 643072 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\MSVCP140.dll', fileVersion: 14.51.36247.0
+C:\WINDOWS\SYSTEM32\VCRUNTIME140.dll:VCRUNTIME140.dll (00007FFC1ECF0000), size: 180224 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\VCRUNTIME140.dll', fileVersion: 14.51.36247.0
+C:\WINDOWS\SYSTEM32\VCRUNTIME140_1.dll:VCRUNTIME140_1.dll (00007FFC1EDD0000), size: 49152 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\VCRUNTIME140_1.dll', fileVersion: 14.51.36247.0
+C:\WINDOWS\System32\NSI.dll:NSI.dll (00007FFC38C70000), size: 32768 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\NSI.dll', fileVersion: 10.0.19041.3636
+C:\WINDOWS\SYSTEM32\dhcpcsvc6.DLL:dhcpcsvc6.DLL (00007FFC33CF0000), size: 94208 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\dhcpcsvc6.DLL', fileVersion: 10.0.19041.3636
+C:\WINDOWS\SYSTEM32\dhcpcsvc.DLL:dhcpcsvc.DLL (00007FFC33F90000), size: 118784 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\dhcpcsvc.DLL', fileVersion: 10.0.19041.3636
+C:\WINDOWS\system32\napinsp.dll:napinsp.dll (00007FFC0CB50000), size: 94208 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\system32\napinsp.dll', fileVersion: 10.0.19041.3636
+C:\WINDOWS\system32\pnrpnsp.dll:pnrpnsp.dll (00007FFC0CB70000), size: 110592 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\system32\pnrpnsp.dll', fileVersion: 10.0.19041.3636
+C:\WINDOWS\system32\wshbth.dll:wshbth.dll (00007FFC0CB90000), size: 118784 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\system32\wshbth.dll', fileVersion: 10.0.19041.5848
+C:\WINDOWS\system32\NLAapi.dll:NLAapi.dll (00007FFC32E50000), size: 118784 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\system32\NLAapi.dll', fileVersion: 10.0.19041.6456
+C:\WINDOWS\SYSTEM32\DNSAPI.dll:DNSAPI.dll (00007FFC37740000), size: 827392 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\DNSAPI.dll', fileVersion: 10.0.19041.5369
+C:\WINDOWS\System32\winrnr.dll:winrnr.dll (00007FFC0D910000), size: 73728 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\winrnr.dll', fileVersion: 10.0.19041.3636
+C:\Windows\System32\rasadhlp.dll:rasadhlp.dll (00007FFC206D0000), size: 40960 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\rasadhlp.dll', fileVersion: 10.0.19041.6328
+C:\WINDOWS\System32\fwpuclnt.dll:fwpuclnt.dll (00007FFC200C0000), size: 524288 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\System32\fwpuclnt.dll', fileVersion: 10.0.19041.6328
+C:\WINDOWS\system32\schannel.DLL:schannel.DLL (00007FFC37230000), size: 618496 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\system32\schannel.DLL', fileVersion: 10.0.19041.6328
+C:\WINDOWS\system32\wbem\wbemprox.dll:wbemprox.dll (00007FFC180B0000), size: 69632 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\system32\wbem\wbemprox.dll', fileVersion: 10.0.19041.4474
+C:\WINDOWS\SYSTEM32\wbemcomn.dll:wbemcomn.dll (00007FFC1DBB0000), size: 589824 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\wbemcomn.dll', fileVersion: 10.0.19041.5794
+C:\WINDOWS\system32\wbem\wbemsvc.dll:wbemsvc.dll (00007FFC12C50000), size: 81920 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\system32\wbem\wbemsvc.dll', fileVersion: 10.0.19041.4474
+C:\WINDOWS\system32\wbem\fastprox.dll:fastprox.dll (00007FFC11F50000), size: 1097728 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\system32\wbem\fastprox.dll', fileVersion: 10.0.19041.5794
+C:\WINDOWS\SYSTEM32\amsi.dll:amsi.dll (00007FFC10050000), size: 126976 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\amsi.dll', fileVersion: 10.0.19041.4355
+C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.26070.9-0\MpOav.dll:MpOav.dll (00007FFC0FD90000), size: 667648 (result: 0), SymType: '-exported-', PDB: 'C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.26070.9-0\MpOav.dll', fileVersion: 4.18.26070.9
+C:\WINDOWS\SYSTEM32\xinput1_4.DLL:xinput1_4.DLL (00007FFBF1C20000), size: 69632 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\xinput1_4.DLL', fileVersion: 10.0.19041.3636
+C:\WINDOWS\SYSTEM32\bthprops.cpl:bthprops.cpl (00007FFC1EEA0000), size: 286720 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\bthprops.cpl', fileVersion: 10.0.19041.5794
+C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.6456_none_60b8a6cb71f64256\comctl32.dll:comctl32.dll (00007FFC1D020000), size: 2732032 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.6456_none_60b8a6cb71f64256\comctl32.dll', fileVersion: 6.10.19041.6456
+C:\WINDOWS\SYSTEM32\mskeyprotect.dll:mskeyprotect.dll (00007FFC077B0000), size: 86016 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\mskeyprotect.dll', fileVersion: 10.0.19041.3636
+C:\WINDOWS\SYSTEM32\NTASN1.dll:NTASN1.dll (00007FFC37D40000), size: 241664 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\SYSTEM32\NTASN1.dll', fileVersion: 10.0.19041.3636
+C:\WINDOWS\SYSTEM32\ncrypt.dll:ncrypt.dll (00007FFC37D80000), size: 159744 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\ncrypt.dll', fileVersion: 10.0.19041.5007
+C:\WINDOWS\system32\ncryptsslp.dll:ncryptsslp.dll (00007FFC07860000), size: 155648 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\system32\ncryptsslp.dll', fileVersion: 10.0.19041.3636
+C:\Program Files (x86)\Steam\steamapps\common\Gallipoli\Gallipoli\Gallipoli_Data\Plugins\x86_64\PartyWin32.dll:PartyWin32.dll (00007FFB8C100000), size: 3854336 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files (x86)\Steam\steamapps\common\Gallipoli\Gallipoli\Gallipoli_Data\Plugins\x86_64\PartyWin32.dll', fileVersion: 1.9.2403.7003
+C:\Windows\System32\SystemSettings.DataModel.dll:SystemSettings.DataModel.dll (00007FFC1B8F0000), size: 495616 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\SystemSettings.DataModel.dll', fileVersion: 10.0.19041.6396
+C:\Windows\System32\Windows.Media.Devices.dll:Windows.Media.Devices.dll (00007FFC20EB0000), size: 602112 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\Windows.Media.Devices.dll', fileVersion: 10.0.19041.5794
+C:\WINDOWS\SYSTEM32\WINNSI.DLL:WINNSI.DLL (00007FFC33F60000), size: 45056 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\WINNSI.DLL', fileVersion: 10.0.19041.3636
+C:\Windows\System32\Windows.Devices.Enumeration.dll:Windows.Devices.Enumeration.dll (00007FFC03B40000), size: 552960 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\Windows.Devices.Enumeration.dll', fileVersion: 10.0.19041.5848
+C:\WINDOWS\SYSTEM32\webio.dll:webio.dll (00007FFC20510000), size: 626688 (result: 0), SymType: '-nosymbols-', PDB: 'C:\WINDOWS\SYSTEM32\webio.dll', fileVersion: 10.0.19041.6033
+C:\Windows\System32\CapabilityAccessManagerClient.dll:CapabilityAccessManagerClient.dll (00007FFC206E0000), size: 270336 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\CapabilityAccessManagerClient.dll', fileVersion: 10.0.19041.6093
+C:\WINDOWS\SYSTEM32\DPAPI.dll:DPAPI.dll (00007FFC380D0000), size: 40960 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\DPAPI.dll', fileVersion: 10.0.19041.3636
+C:\Program Files (x86)\Steam\steamapps\common\Gallipoli\Gallipoli\Gallipoli_Data\Plugins\x86_64\discord-rpc.dll:discord-rpc.dll (00007FFBE7290000), size: 638976 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files (x86)\Steam\steamapps\common\Gallipoli\Gallipoli\Gallipoli_Data\Plugins\x86_64\discord-rpc.dll'
+C:\WINDOWS\SYSTEM32\XAudio2_9.dll:XAudio2_9.dll (00007FFBA2180000), size: 663552 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\XAudio2_9.dll', fileVersion: 10.0.19041.4355
+C:\WINDOWS\SYSTEM32\AVRT.dll:AVRT.dll (00007FFC36180000), size: 40960 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\SYSTEM32\AVRT.dll', fileVersion: 10.0.19041.3636
+C:\Program Files (x86)\Steam\steamapps\common\Gallipoli\Gallipoli\Gallipoli_Data\Plugins\x86_64\M2HDetect.dll:M2HDetect.dll (00007FFC33230000), size: 40960 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files (x86)\Steam\steamapps\common\Gallipoli\Gallipoli\Gallipoli_Data\Plugins\x86_64\M2HDetect.dll'
+C:\WINDOWS\system32\ncryptprov.dll:ncryptprov.dll (00007FFC07800000), size: 376832 (result: 0), SymType: '-exported-', PDB: 'C:\WINDOWS\system32\ncryptprov.dll', fileVersion: 10.0.19041.6456
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFBE8E4F3EC)
+0x00007FFBE8E4F3EC (UnityPlayer) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFBE8E4F648)
+0x00007FFBE8E4F648 (UnityPlayer) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFBE8E4AFF3)
+0x00007FFBE8E4AFF3 (UnityPlayer) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFBE8E4B870)
+0x00007FFBE8E4B870 (UnityPlayer) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFBE8E4B8F9)
+0x00007FFBE8E4B8F9 (UnityPlayer) (function-name not available)
+0x00007FFBE9B18DC4 (UnityPlayer) UnityMain
+0x00007FFC3A817374 (KERNEL32) BaseThreadInitThunk
+0x00007FFC3AC9CC91 (ntdll) RtlUserThreadStart
+
+========== END OF STACKTRACE ===========
+
+A crash has been intercepted by the crash handler. For call stack and other details, see the latest crash report generated in:
+ * C:/Users/Dracon/AppData/Local/Temp/WW1 Game Series/Gallipoli/Crashes
